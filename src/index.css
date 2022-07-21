@@ -21,3 +21,7 @@ body {
   padding-top: 10rem;
   z-index: 500;
 }
+
+p {
+  color: var(--main-p-text-color);
+}

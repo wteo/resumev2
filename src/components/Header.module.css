@@ -12,7 +12,7 @@ header {
 
 header p {
     margin: 0;
-    color: var(--p-text-color);
+    color: var(--main-p-text-color);
     white-space: nowrap;
 }
 
@@ -42,7 +42,6 @@ nav {
 
 nav p {
     background-color: var(--header-background-color);
-    color: var(main-p-text-color);
     font-size: 85%;
     transition: text-decoration 0.5s;
     padding-top: -3rem;
