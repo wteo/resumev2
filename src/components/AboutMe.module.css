@@ -1,0 +1,21 @@
+.aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3.5rem;
+}
+
+.aboutMeContainer div, .aboutMeContainer p {
+    flex: 1;
+    margin: auto 0;
+}
+
+.aboutMeContainer p {
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+
+.aboutMeSubTitle {
+    font-size: 150%;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
