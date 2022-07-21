@@ -6,10 +6,12 @@ function Project(props) {
     return (
         <div className={styles.container}>
             <div className={styles.projectContainer}>
-                <img className={styles.image} src={props.imageLink} alt="Shopping Order" />
+                <a href={props.projectLink} target='_blank' rel='noreferrer'>
+                <img className={styles.image} src={props.imageLink} alt='project'/>
                 <p className={styles.projectName}>{props.name}</p>
                 <p className={styles.projectDate}>{props.date}</p>
                 <p className={styles.projectDescription}>{props.description}</p>
+                </a>
             </div>
         </div>
     );
