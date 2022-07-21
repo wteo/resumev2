@@ -8,21 +8,15 @@ import picture from '../images/profile.jpg';
 function Header () {
     return (
         <header>
-            <div className={style.resumeHeader}>
-                <div className={style.profileName}>
-                    <div>
-                        <img className={style.profilePicture} src={picture} alt="My Happy Face" />
-                    </div>
-                    <p>Wendy Teo</p>
+            <div className={style.profileName}>
+                <div>
+                    <img className={style.profilePicture} src={picture} alt="My Happy Face" />
                 </div>
-                <div className={style.contactDetails}>
-                    <p>wendy.teo@gmail.com</p>
-                    <p>(+61) 458 369 510</p>
-                    <p>github.com/wteo</p>
-                </div>
+                <p>Wendy Teo</p>
             </div>
 
             <nav>
+                <p></p>
                 <p>About Me</p>
                 <p>Education</p>
                 <p>Projects</p>

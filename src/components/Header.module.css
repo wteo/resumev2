@@ -16,11 +16,6 @@ header p {
     white-space: nowrap;
 }
 
-.resumeHeader, .profileName {
-    display: flex;
-    flex-direction: row;
-}
-
 .profilePicture {
     width: 70px;
     border-radius: 35px;
@@ -28,25 +23,18 @@ header p {
 }
 
 .profileName {
+    display: flex;
+    flex-direction: row;
     flex: 5;
     padding-top: 1rem;
-    padding-left: 1rem;
-    font-size: 300%;
+    padding-left: 2rem;
+    font-size: 250%;
     font-weight: bold;
-}
-
-.contactDetails {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding-top: 1rem;
-    padding-right: 0.25rem;
-    padding-bottom: 1.5rem;
 }
 
 nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 8fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 0.10rem;
     padding-top: 0.25rem;
     padding-bottom: 0.10rem;
@@ -54,39 +42,15 @@ nav {
 
 nav p {
     background-color: var(--header-background-color);
-    font-size: 140%;
-    transition: background-color 0.5s, color 0.5s, text-decoration 0.5s;
+    font-size: 85%;
+    transition: text-decoration 0.5s;
+    padding-top: -3rem;
+    padding-bottom: 0.75rem;
     padding-left: 1rem;
-    padding-bottom: 0.25rem;
 }
 
 
 nav p:hover, nav p:active {
-    background-color: var(--hover-darker-color);
-    color: var(--hover-color);
     text-decoration: underline;
     cursor: pointer;
 }
-
-@media (max-width: 300px) {
-
-    .profileName {
-        flex: 3;
-    }
-
-    header p {
-        font-size: 8px;
-    }
-
-    nav {
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 0.05rem;
-        padding-top: 0.25rem;
-        padding-bottom: 0.10rem;
-    }
-}
-
-
-
-
-

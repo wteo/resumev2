@@ -51,49 +51,52 @@ function Projects() {
     }];
 
     return (
-        <div className={styles.projectsGrid}>
-            <Project 
-                name={projectsArr[0].name} 
-                imageLink={projectsArr[0].imageLink}
-                projectLink={projectsArr[0].projectLink} 
-                date={projectsArr[0].date} 
-                description={projectsArr[0].description}
-            />
-            <Project 
-                name={projectsArr[1].name} 
-                imageLink={projectsArr[1].imageLink} 
-                projectLink={projectsArr[1].projectLink} 
-                date={projectsArr[1].date} 
-                description={projectsArr[1].description}
-            />
-            <Project 
-                name={projectsArr[2].name} 
-                imageLink={projectsArr[2].imageLink} 
-                projectLink={projectsArr[2].projectLink} 
-                date={projectsArr[2].date} 
-                description={projectsArr[2].description}
-            />
-            <Project 
-                name={projectsArr[3].name} 
-                imageLink={projectsArr[3].imageLink} 
-                projectLink={projectsArr[3].projectLink} 
-                date={projectsArr[3].date} 
-                description={projectsArr[3].description}
-            />
-            <Project 
-                name={projectsArr[4].name} 
-                imageLink={projectsArr[4].imageLink} 
-                projectLink={projectsArr[4].projectLink} 
-                date={projectsArr[4].date} 
-                description={projectsArr[4].description}
-            />
-            <Project 
-                name={projectsArr[5].name} 
-                imageLink={projectsArr[5].imageLink} 
-                projectLink={projectsArr[5].projectLink} 
-                date={projectsArr[5].date} 
-                description={projectsArr[5].description}
-            />
+        <div>
+            <h1 className={styles.projectsTitle}>Projects</h1>
+            <div className={styles.projectsGrid}>
+                <Project 
+                    name={projectsArr[0].name} 
+                    imageLink={projectsArr[0].imageLink}
+                    projectLink={projectsArr[0].projectLink} 
+                    date={projectsArr[0].date} 
+                    description={projectsArr[0].description}
+                />
+                <Project 
+                    name={projectsArr[1].name} 
+                    imageLink={projectsArr[1].imageLink} 
+                    projectLink={projectsArr[1].projectLink} 
+                    date={projectsArr[1].date} 
+                    description={projectsArr[1].description}
+                />
+                <Project 
+                    name={projectsArr[2].name} 
+                    imageLink={projectsArr[2].imageLink} 
+                    projectLink={projectsArr[2].projectLink} 
+                    date={projectsArr[2].date} 
+                    description={projectsArr[2].description}
+                />
+                <Project 
+                    name={projectsArr[3].name} 
+                    imageLink={projectsArr[3].imageLink} 
+                    projectLink={projectsArr[3].projectLink} 
+                    date={projectsArr[3].date} 
+                    description={projectsArr[3].description}
+                />
+                <Project 
+                    name={projectsArr[4].name} 
+                    imageLink={projectsArr[4].imageLink} 
+                    projectLink={projectsArr[4].projectLink} 
+                    date={projectsArr[4].date} 
+                    description={projectsArr[4].description}
+                />
+                <Project 
+                    name={projectsArr[5].name} 
+                    imageLink={projectsArr[5].imageLink} 
+                    projectLink={projectsArr[5].projectLink} 
+                    date={projectsArr[5].date} 
+                    description={projectsArr[5].description}
+                />
+            </div>
         </div>
     );
 }
