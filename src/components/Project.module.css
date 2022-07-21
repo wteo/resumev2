@@ -19,8 +19,8 @@
 }
 
 .projectContainer:hover {
-    background-color: rgb(0, 234, 255);
-    border-color: blue;
+    background-color: var(--hover-color);
+    border-color: var(--hover-darker-color);
     box-shadow: 5px 5px 20px #393939;
     cursor: pointer;
 }

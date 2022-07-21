@@ -62,9 +62,10 @@ nav p {
 
 
 nav p:hover, nav p:active {
-    background-color: rgb(0, 25, 107);
-    color: rgb(0, 51, 218);
+    background-color: var(--hover-darker-color);
+    color: var(--hover-color);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
