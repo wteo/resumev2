@@ -14,7 +14,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 50rem;
+  padding-top: 10rem;
+  z-index: 500;
 }
 
 

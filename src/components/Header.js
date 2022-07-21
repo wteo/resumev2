@@ -6,7 +6,7 @@ import picture from '../images/profile.jpg';
 
 
 function Header () {
-    const header = (
+    return (
         <header>
             <div className={style.resumeHeader}>
                 <div className={style.profileName}>
@@ -31,8 +31,6 @@ function Header () {
             </nav>
         </header>
     );
-
-    return header;
 }
 
 export default Header;

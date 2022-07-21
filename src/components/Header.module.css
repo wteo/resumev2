@@ -7,6 +7,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 
 header p {
@@ -53,7 +54,7 @@ nav {
 
 nav p {
     background-color: var(--header-background-color);
-    font-size: 160%;
+    font-size: 140%;
     transition: background-color 0.5s, color 0.5s, text-decoration 0.5s;
     padding-left: 1rem;
     padding-bottom: 0.25rem;
