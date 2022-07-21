@@ -68,16 +68,18 @@ nav p:hover, nav p:active {
     cursor: pointer;
 }
 
-@media (max-width: 400px) {
-    p {
-        font-size: 80%
-    }
+@media (max-width: 300px) {
 
     .profileName {
-        font-size: 150%;
+        flex: 3;
+    }
+
+    header p {
+        font-size: 8px;
     }
 
     nav {
+        grid-template-columns: 1fr 1fr 1fr;
         column-gap: 0.05rem;
         padding-top: 0.25rem;
         padding-bottom: 0.10rem;
