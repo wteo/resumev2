@@ -5,6 +5,8 @@
 }
 
 :root {
+  --h1-text-color: white;
+  --alternate-h1-text-color: #c0904d;
   --p-text-color: white;
   --alternate-p-text-color: #c0904d;
   --header-background-color: #455073;

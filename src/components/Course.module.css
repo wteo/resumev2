@@ -1,0 +1,22 @@
+.courseContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3.5rem;
+}
+
+.courseTitle {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.courseContainer p {
+    flex: 1;
+    margin: auto 0;
+    padding-left: 5rem;
+}
+
+.courseLecturer {
+    font-size: 80%;
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+}

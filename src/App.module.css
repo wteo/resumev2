@@ -1,0 +1,4 @@
+.appGrid {
+    display: flex;
+    flex-direction: column;
+}

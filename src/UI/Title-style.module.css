@@ -1,0 +1,17 @@
+
+.navTitle {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    font-size: 250%;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    margin-top: 5rem;
+}
+
+.mainNavTitleColor {
+    color: var(--h1-text-color);
+}
+
+.altNavTitleColor {
+    color: var(--alternate-h1-text-color);
+}
