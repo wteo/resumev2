@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Education.module.css';
 
-import TitleStyle from '../UI/Title-style';
+import NavTitleStyle from '../UI/Nav-Title-style';
 import Course from './Course';
 
 function Education() {
@@ -31,9 +31,9 @@ function Education() {
 
     return (
         <div className={styles.educationContainer}>
-            <TitleStyle navColor='alt'>
+            <NavTitleStyle navColor='alt'>
                 Education
-            </TitleStyle>
+            </NavTitleStyle>
             <div className={styles.coursesContainer}>
                 <Course 
                     title={coursesArr[0].courseTitle}

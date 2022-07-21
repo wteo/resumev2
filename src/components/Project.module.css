@@ -28,7 +28,7 @@
 
 .projectName, .projectDate, .projectDescription {
     position: absolute;
-    color: var(--p-text-color);
+    color: var(main-p-text-color);
 }
 
 .projectName, .projectDate {

@@ -1,8 +1,8 @@
 import React from "react";
 
-import styles from './Title-style.module.css';
+import styles from './Nav-Title-style.module.css';
 
-function TitleStyle(props) {
+function NavTitleStyle(props) {
 
     const mainColor = <h1 className={styles.mainNavTitleColor}>{props.children}</h1>;
     const altColor = <h1 className={styles.altNavTitleColor}>{props.children}</h1>;
@@ -14,4 +14,4 @@ function TitleStyle(props) {
     );
 }
 
-export default TitleStyle;
+export default NavTitleStyle;

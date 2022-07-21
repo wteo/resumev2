@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Projects.module.css';
 import Project from './Project';
-import TitleStyle from '../UI/Title-style';
+import NavTitleStyle from '../UI/Nav-Title-style';
 
 import foodOrder from '../images/foodOrder.jpg';
 import maze from '../images/maze.PNG';
@@ -53,9 +53,9 @@ function Projects() {
 
     return (
         <div>
-            <TitleStyle navColor='main'>
+            <NavTitleStyle navColor='main'>
                 Projects
-            </TitleStyle>
+            </NavTitleStyle>
             <div className={styles.projectsGrid}>
                 <Project 
                     name={projectsArr[0].name} 
