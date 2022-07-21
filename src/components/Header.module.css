@@ -68,6 +68,22 @@ nav p:hover, nav p:active {
     cursor: pointer;
 }
 
+@media (max-width: 400px) {
+    p {
+        font-size: 80%
+    }
+
+    .profileName {
+        font-size: 150%;
+    }
+
+    nav {
+        column-gap: 0.05rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.10rem;
+    }
+}
+
 
 
 
