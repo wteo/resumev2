@@ -18,6 +18,11 @@
     font-size: 125%;
 }
 
+.datesAndTitleContainer {
+    display: grid;
+    grid-template-columns: 18rem 20rem 1fr;
+}
+
 .jobDates {
     padding-right: 1rem;
 }
@@ -34,6 +39,10 @@
     
     .jobDates, .jobTitle {
         font-size: 95%;
+    }
+
+    .datesAndTitleContainer {
+        grid-template-columns: 15rem 20rem 1fr;
     }
 }
 

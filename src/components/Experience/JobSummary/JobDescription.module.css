@@ -10,22 +10,13 @@
 }
 
 .descriptionContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    column-gap: 1rem;
 }
 
 .dotPoint {
-    flex: 1;
     padding-left: 5rem;
-}
-
-.descriptionPar {
-    flex: 10;
-}
-
-.whiteSpaceAfterDescription {
-    flex: 1;
 }
 
 @media (max-width: 780px) {
