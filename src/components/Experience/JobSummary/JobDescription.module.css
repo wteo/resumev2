@@ -1,5 +1,35 @@
+.jobDescriptionStyle {
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+
 .jobDescriptionStyle p {
     margin: auto 0;
-    padding-left: 5rem;
+    padding-bottom: 1rem;
     color: var(--alternate-p-text-color);
+}
+
+.descriptionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dotPoint {
+    flex: 1;
+    padding-left: 5rem;
+}
+
+.descriptionPar {
+    flex: 10;
+}
+
+.whiteSpaceAfterDescription {
+    flex: 1;
+}
+
+@media (max-width: 780px) {
+    .jobDescriptionStyle p {
+        font-size: 75%;
+    }
 }

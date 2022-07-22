@@ -4,13 +4,13 @@ import styles from './Job.module.css';
 
 function Job(props) {
     return (
-        <React.Fragment>
-            <p className={styles.company}>Link Group</p>
+        <div className={styles.jobStyling}>
+            <p className={styles.company}>{props.company}</p>
             <p>
-                <span className={styles.jobDates}>Nov 2019 – Present</span>
-                <span className={styles.jobTitle}>Credit Controller</span>
+                <span className={styles.jobDates}>{props.dates}</span>
+                <span className={styles.jobTitle}>{props.title}</span>
             </p>
-        </React.Fragment>
+        </div>
     );
 }
 
