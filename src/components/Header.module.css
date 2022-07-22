@@ -58,7 +58,12 @@ nav p:hover, nav p:active {
 
 @media (max-width: 780px) {
     nav {
-        grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
+@media (max-width: 1150px) and (min-width: 779px) {
+    nav {
+        grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
