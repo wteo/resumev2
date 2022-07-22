@@ -2,8 +2,8 @@ import React from 'react';
 
 import styles from './Education.module.css';
 
-import NavTitleStyle from '../UI/Nav-Title-style';
-import Course from './Course';
+import NavTitleStyle from '../../UI/Nav-Title-style';
+import Course from './Course/Course';
 
 function Education() {
 

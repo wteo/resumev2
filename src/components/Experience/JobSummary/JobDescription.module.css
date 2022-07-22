@@ -1,0 +1,5 @@
+.jobDescriptionStyle p {
+    margin: auto 0;
+    padding-left: 5rem;
+    color: var(--alternate-p-text-color);
+}

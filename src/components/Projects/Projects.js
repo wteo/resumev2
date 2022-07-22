@@ -1,15 +1,15 @@
 import React from 'react';
 
 import styles from './Projects.module.css';
-import Project from './Project';
-import NavTitleStyle from '../UI/Nav-Title-style';
+import Project from './Project/Project';
+import NavTitleStyle from '../../UI/Nav-Title-style';
 
-import foodOrder from '../images/foodOrder.jpg';
-import maze from '../images/maze.PNG';
-import demandLetter from '../images/demandLetter.jpg';
-import pokedex from '../images/pokedex.webp';
-import fillet from '../images/fillet.jpg';
-import timer from '../images/timer.PNG';
+import foodOrder from '../../images/foodOrder.jpg';
+import maze from '../../images/maze.PNG';
+import demandLetter from '../../images/demandLetter.jpg';
+import pokedex from '../../images/pokedex.webp';
+import fillet from '../../images/fillet.jpg';
+import timer from '../../images/timer.PNG';
 
 function Projects() {
 

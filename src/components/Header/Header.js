@@ -2,7 +2,7 @@ import React from 'react';
 
 import style from './Header.module.css';
 
-import picture from '../images/profile.jpg';
+import picture from '../../images/profile.jpg';
 
 
 function Header () {
