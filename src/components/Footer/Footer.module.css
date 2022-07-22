@@ -1,10 +1,50 @@
-.FooterStyling {
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr;
+.footerStyling {
     background-color: var(--alternate-background-color);
-    color: var(--alternate-p-text-color);
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-right: -0.5rem;
     margin-left: -0.5rem;
+    margin-bottom: -2rem;
 }
+
+.footerStyling p {
+    color: var(--alternate-p-text-color);
+    margin: auto 0;
+    font-size: 200%;
+    text-align: center;
+}
+
+#contactLine {
+    font-size: 350%;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#email {
+    margin-top: 2rem;
+}
+
+#email, #github {
+    transition: text-decoration 0.5s;
+}
+
+#email:hover, #github:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#phone {
+    font-size: 150%;
+    padding: 0.5rem;
+}
+
+#copyright {
+    margin-top: 5rem;
+}
+
+#copyright, #place {
+    font-size: 85%;
+}
+

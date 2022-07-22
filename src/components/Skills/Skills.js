@@ -3,34 +3,41 @@ import React from 'react';
 import NavTitleStyle from '../../UI/Nav-Title-style';
 import Skill from './Skill';
 
+import styles from './Skills.module.css';
+
 function Skills() {
     return (
         <div>
             <NavTitleStyle navColor='main'>
-                Projects
+                Skills
             </NavTitleStyle>
-            <div>
-                <Skill describedSkill='JavaScript' level='Intermediate'>
-                    <span>ES6</span>
-                    <span>NodeJS</span>
-                    <span>Express</span>
-                    <span>Mocha</span>
-                    <span>NPM</span>
+            <div className={styles.skillsGrid}>
+                <Skill describedSkill='JavaScript'>
+                    <span className={styles.skillsSpanStyling}>ES6</span>
+                    <span className={styles.skillsSpanStyling}>NodeJS</span>
+                    <span className={styles.skillsSpanStyling}>Express</span>
+                    <span className={styles.skillsSpanStyling}>Mocha</span>
+                    <span className={styles.skillsSpanStyling}>NPM</span>
                 </Skill>
-                <Skill describedSkill='React' level='Basic'>
+                <Skill describedSkill='React'>
+                    <span className={styles.skillsSpanStyling}>Components</span>
+                    <span className={styles.skillsSpanStyling}>Props</span>
+                    <span className={styles.skillsSpanStyling}>State</span>
+                    <span className={styles.skillsSpanStyling}>Hooks</span>
+                    <span className={styles.skillsSpanStyling}>Redux</span>
                 </Skill>
                 <Skill describedSkill='Tools'>
-                    <span>Git</span>
-                    <span>VSCode</span>
-                    <span>Postman</span>
-                    <span>Netlify</span>
-                    <span>Google Firebase</span>
+                    <span className={styles.skillsSpanStyling}>Git</span>
+                    <span className={styles.skillsSpanStyling}>VSCode</span>
+                    <span className={styles.skillsSpanStyling}>Postman</span>
+                    <span className={styles.skillsSpanStyling}>Netlify</span>
+                    <span className={styles.skillsSpanStyling}>Firebase</span>
                 </Skill>
                 <Skill describedSkill='Language'>
-                    <span>English</span>
-                    <span>Malay</span>
-                    <span>Mandarin</span>
-                    <span>Hokkien</span>
+                    <span className={styles.skillsSpanStyling}>English</span>
+                    <span className={styles.skillsSpanStyling}>Malay</span>
+                    <span className={styles.skillsSpanStyling}>Mandarin</span>
+                    <span className={styles.skillsSpanStyling}>Hokkien</span>
                 </Skill>
             </div>
         </div>

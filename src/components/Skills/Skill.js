@@ -1,11 +1,12 @@
 import React from "react";
 
+import styles from './Skill.module.css';
+
 function Skill(props) {
     return (
-        <div>
-            <p>{props.describedSkill}</p>
-            <p>{props.level}</p>
-            <p>{props.children}</p>
+        <div className={styles.skillContainer}>
+            <p className={styles.describedSkillStyling}>{props.describedSkill}</p>
+            <div className={styles.skillGrid}>{props.children}</div>
         </div>
     );
 }
