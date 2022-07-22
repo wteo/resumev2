@@ -16,6 +16,7 @@
 
 .jobDates, .jobTitle {
     font-size: 125%;
+    display: inline-block;
 }
 
 .jobDates {
