@@ -16,7 +16,6 @@
 
 .jobDates, .jobTitle {
     font-size: 125%;
-    display: inline-block;
 }
 
 .jobDates {
@@ -38,10 +37,3 @@
     }
 }
 
-@media (min-width: 781px) {
-    .jobDates, .jobTitle {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: clip;
-    }
-}

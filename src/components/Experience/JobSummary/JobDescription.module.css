@@ -1,12 +1,12 @@
 .jobDescriptionStyle {
-    margin-top: -3rem;
+    margin-top: -2rem;
     margin-bottom: 3rem;
 }
 
 .descriptionContainer p {
     margin: auto 0;
     padding-bottom: 1rem;
-    color: var(--alternate-p-text-color, rgb(179, 123, 3));
+    color: var(--alternate-p-text-color, gold);
 }
 
 .descriptionContainer {
