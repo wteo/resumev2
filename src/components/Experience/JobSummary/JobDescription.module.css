@@ -3,10 +3,10 @@
     margin-bottom: 3rem;
 }
 
-.jobDescriptionStyle p {
+.descriptionContainer p {
     margin: auto 0;
     padding-bottom: 1rem;
-    color: var(--alternate-p-text-color);
+    color: var(--alternate-p-text-color, rgb(179, 123, 3));
 }
 
 .descriptionContainer {
