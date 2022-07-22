@@ -21,3 +21,12 @@
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
 }
+
+@media (max-width: 780px) {
+    .courseTitle {
+        font-size: 115%;
+    }
+    .courseLecturer {
+        font-size: 60%;
+    }
+}
