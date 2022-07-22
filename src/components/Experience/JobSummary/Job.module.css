@@ -42,7 +42,7 @@
     }
 
     .datesAndTitleContainer {
-        grid-template-columns: 15rem 15rem 1fr;
+        grid-template-columns: 10rem 10rem 1fr;
     }
 }
 
