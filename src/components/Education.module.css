@@ -26,4 +26,9 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
+    .educationContainer {
+        right: 0;
+        width: 100%;
+    }
+
 }
