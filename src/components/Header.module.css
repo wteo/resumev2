@@ -54,3 +54,11 @@ nav p:hover, nav p:active {
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+@media (max-width: 780px) {
+    nav {
+        grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
