@@ -1,21 +1,84 @@
-.aboutMeContainer {
+.aboutMeOuterContainer {
     display: flex;
     flex-direction: column;
-    padding-bottom: 3.5rem;
+    padding-bottom: 5rem;
 }
 
-.aboutMeContainer div, .aboutMeContainer p {
+.aboutMeOuterContainer div, .aboutMeOuterContainer p {
     flex: 1;
     margin: auto 0;
 }
 
-.aboutMeContainer p {
+.aboutMeOuterContainer p {
     padding-bottom: 2rem;
     padding-left: 5rem;
+}
+
+.aboutMeInnerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+}
+
+.aboutMeSummary{
+    height: 35rem;
 }
 
 .aboutMeSubTitle {
     font-size: 150%;
     font-weight: bold;
     padding-bottom: 2rem;
+}
+
+.profileImage {
+    float: center;
+    width:  35rem;
+    height: 35rem;
+    object-fit: cover;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 2px solid var(--header-background-color);
+}
+
+@media (max-width: 780px) {
+
+    .aboutMeInnerContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .aboutMeImageContainer {
+        padding-left: 5rem;
+    }
+
+    .profileImage {
+        width:  22.5rem;
+        height: 22.5rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        border: 1px solid var(--header-background-color);
+    }
+
+    .aboutMeSummary{
+        height: fit-content;
+    }
+    
+}
+
+@media (max-width: 1150px) and (min-width: 779px) {
+
+    .aboutMeInnerContainer {
+        column-gap: 2.5rem;
+    }
+
+    .profileImage {
+        width:  27rem;
+        height: 27rem;
+        padding: 0.75rem;
+        border-radius: 1.5rem;
+        border: 2px solid var(--header-background-color);
+    }
+
+    .aboutMeSummary{
+        height: 27rem;
+    }
 }
