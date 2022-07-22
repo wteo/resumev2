@@ -7,6 +7,8 @@
     padding-bottom: 5rem;
     margin-right: -0.5rem;
     margin-left: -0.5rem;
+    width: 100%;
+    right: 0;
 }
 
 .educationContainer .educationTitle, .educationContainer .coursesContainer {
