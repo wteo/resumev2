@@ -63,4 +63,9 @@
         padding: 0.3rem;
         border-radius: 0.7rem;
     }
+
+    .projectContainer {
+        border-radius: 0.7rem;
+        padding-left: 5rem;
+    }
 }
