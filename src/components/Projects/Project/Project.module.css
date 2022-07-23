@@ -57,15 +57,10 @@
 
 @media (max-width: 780px) {
     .image {
-        float: center;
-        width:  18rem;
-        height: 18rem;
+        float: left;
+        width:  22.5rem;
+        height: 22.5rem;
         padding: 0.3rem;
         border-radius: 0.7rem;
-    }
-
-    .projectContainer {
-        border-radius: 0.7rem;
-        padding-left: 5rem;
     }
 }
