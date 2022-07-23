@@ -50,14 +50,14 @@ function Tools() {
     return (
         <IconContext.Provider value={ icon }>
             <div className={styles.toolsStyling} id='tools'>
-                <div data-aos='fade-in'>
+                <div>
                     <NavTitleStyle navColor='main'>
                         Tools
                     </NavTitleStyle>
                 </div>
-                <p className={styles.toolDescription} data-aos='fade-in'>These are the tools / technologies I have used to create my projects.</p>
-                <button className={styles.changeButton} onClick={clickHandler} data-aos='fade-in'>{icon ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
-                <section className={styles.toolsListGrid} data-aos='fade-in'>
+                <p className={styles.toolDescription}>These are the tools / technologies I have used to create my projects.</p>
+                <button className={styles.changeButton} onClick={clickHandler}>{icon ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
+                <section className={styles.toolsListGrid}>
                     <ToolsContainer toolType='Languages'>
                         <Tool imageLink={jsIcon} toolName='JavaScript'/>
                         <Tool imageLink={es6} toolName='ES6'/>

@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <footer className={styles.footerStyling}>
-            <div data-aos='fade-in'>
+            <div>
                 <p id={styles.contactLine}>Say hello!</p>
                 <p>↓</p>
                 <div id='contact'>

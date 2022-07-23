@@ -31,7 +31,7 @@ function Education() {
 
     return (
         <div className={styles.educationContainer} id='education'>
-            <div data-aos='fade-in'>
+            <div>
                 <NavTitleStyle navColor='alt'>
                     Education
                 </NavTitleStyle>

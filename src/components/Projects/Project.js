@@ -4,7 +4,7 @@ import styles from './Project.module.css';
 
 function Project(props) {
     return (
-        <div className={styles.container} data-aos='flip-left'>
+        <div className={styles.container} data-aos='fade-in'>
             <div className={styles.projectContainer}>
                 <a href={props.projectLink} target='_blank' rel='noreferrer'>
                 <img className={styles.image} src={props.imageLink} alt='project'/>

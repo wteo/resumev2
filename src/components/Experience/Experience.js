@@ -28,12 +28,12 @@ function Experience() {
 
     return (
         <div className={styles.experienceStyling} id='experience'>
-            <div data-aos='fade-in'>
+            <div>
                 <NavTitleStyle navColor='alt'>
                     Experience
                 </NavTitleStyle>
             </div>
-            <div className={styles.jobs} data-aos='fade-in'>
+            <div className={styles.jobs}>
                 <div className={styles.jobAndDescription}>
                     <Job company={jobsArr[0].company} dates={jobsArr[0].dates} title={jobsArr[0].title}/>
                     <JobDescription />
