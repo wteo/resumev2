@@ -1,7 +1,4 @@
 .educationContainer {
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr;
     background-color: var(--alternate-background-color);
     color: var(--alternate-p-text-color);
     padding-bottom: 5rem;

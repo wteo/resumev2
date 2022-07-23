@@ -19,7 +19,6 @@
 body {
   background-color: #c0904d;
   font-family: 'Times New Roman', 'Verdana', 'Arial';
-  padding-top: 10rem;
   z-index: 500;
 }
 
@@ -30,5 +29,5 @@ p {
 a {
   color: var(--main-p-text-color);
   text-decoration: none; /* default state for texts not underline*/
-  cursor: pointer;
 }
+
