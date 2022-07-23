@@ -9,3 +9,13 @@
     border-radius: 3rem;
     background-color: white;
 }
+
+.toolText {
+    display: inline-block;
+    padding: 0.25rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    font-size: 150%;
+    background-color: rgba(108, 108, 108, 0.3);
+    border-radius: 0.3rem;
+}
