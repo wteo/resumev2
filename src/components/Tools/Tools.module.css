@@ -55,4 +55,8 @@
         font-size: 130%;
     }
 
+    .changeButton {
+        margin-left: 2rem;
+    }
+
 }
