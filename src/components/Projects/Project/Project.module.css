@@ -54,3 +54,16 @@
     margin-left: 7.5rem;
     padding: 0.5rem;
 }
+
+@media (max-width: 780px) {
+    .image {
+        width:  18rem;
+        height: 18rem;
+        padding: 0.25rem;
+        border-radius: 0.7rem;
+    }
+
+    .projectContainer {
+        border-radius: 0.7rem;
+    }
+}
