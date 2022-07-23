@@ -55,3 +55,12 @@
     padding: 0.5rem;
 }
 
+@media (max-width: 780px) {
+    .image {
+        float: center;
+        width:  18rem;
+        height: 18rem;
+        padding: 0.3rem;
+        border-radius: 0.7rem;
+    }
+}
