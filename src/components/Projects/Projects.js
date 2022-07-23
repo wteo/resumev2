@@ -53,11 +53,9 @@ function Projects() {
 
     return (
         <div id='projects'>
-             <div>
-                <NavTitleStyle navColor='main'>
-                    Projects
-                </NavTitleStyle>
-            </div>
+            <NavTitleStyle navColor='main'>
+                Projects
+            </NavTitleStyle>
             <div className={styles.projectsGrid}>
                 <Project 
                     name={projectsArr[0].name} 

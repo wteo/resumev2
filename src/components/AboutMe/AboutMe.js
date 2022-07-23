@@ -8,11 +8,9 @@ import profilePicture from '../../images/profile2.jpg';
 function AboutMe() {
     return (
         <div className={styles.aboutMeOuterContainer} id='aboutMe'>
-            <div>
-                <NavTitleStyle navColor='main'>
-                    About Me
-                </NavTitleStyle>
-            </div>
+            <NavTitleStyle navColor='main'>
+                About Me
+            </NavTitleStyle>
             <div className={styles.aboutMeInnerContainer}>
                 <div className={styles.aboutMeSummary}>
                     <p className={styles.aboutMeSubTitle}>Self-Taught Developer</p>

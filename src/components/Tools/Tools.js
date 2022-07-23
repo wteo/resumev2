@@ -50,11 +50,9 @@ function Tools() {
     return (
         <IconContext.Provider value={ icon }>
             <div className={styles.toolsStyling} id='tools'>
-                <div>
-                    <NavTitleStyle navColor='main'>
-                        Tools
-                    </NavTitleStyle>
-                </div>
+                <NavTitleStyle navColor='main'>
+                    Tools
+                </NavTitleStyle>
                 <p className={styles.toolDescription}>These are the tools / technologies I have used to create my projects.</p>
                 <button className={styles.changeButton} onClick={clickHandler}>{icon ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
                 <section className={styles.toolsListGrid}>
