@@ -49,12 +49,12 @@ function Tools() {
     };
 
     return (
-        <div className={styles.toolsStyling}>
-            <a id='tools'  href='/#tools' data-aos='fade-in'>
+        <div className={styles.toolsStyling} id='tools'>
+            <div data-aos='fade-in'>
                 <NavTitleStyle navColor='main'>
                     Tools
                 </NavTitleStyle>
-            </a>
+            </div>
             <p className={styles.toolDescription} data-aos='fade-in'>These are the tools / technologies I have used to create my projects.</p>
             <button className={styles.changeButton} onClick={clickHandler} data-aos='fade-in'>{iconImage ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
             <section className={styles.toolsListGrid} data-aos='fade-in'>

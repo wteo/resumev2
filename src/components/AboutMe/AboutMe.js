@@ -7,13 +7,11 @@ import profilePicture from '../../images/profile2.jpg';
 
 function AboutMe() {
     return (
-        <div className={styles.aboutMeOuterContainer}>
-            <div>
-                <a id='aboutMe' href='/#aboutMe' data-aos='fade-in'>
-                    <NavTitleStyle navColor='main'>
-                        About Me
-                    </NavTitleStyle>
-                </a>
+        <div className={styles.aboutMeOuterContainer} id='aboutMe'>
+            <div data-aos='fade-in'>
+                <NavTitleStyle navColor='main'>
+                    About Me
+                </NavTitleStyle>
             </div>
             <div className={styles.aboutMeInnerContainer}>
                 <div className={styles.aboutMeSummary} data-aos='fade-in'>

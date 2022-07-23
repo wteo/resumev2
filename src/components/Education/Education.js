@@ -30,12 +30,12 @@ function Education() {
     }];
 
     return (
-        <div className={styles.educationContainer}>
-            <a id='education' href='/#education' data-aos='fade-in'>
+        <div className={styles.educationContainer} id='education'>
+            <div data-aos='fade-in'>
                 <NavTitleStyle navColor='alt'>
                     Education
                 </NavTitleStyle>
-            </a>
+            </div>
             <div className={styles.coursesContainer}>
                 <Course 
                     title={coursesArr[0].courseTitle}

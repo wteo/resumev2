@@ -52,12 +52,12 @@ function Projects() {
     }];
 
     return (
-        <div>
-             <a id='projects' href='/#projects' data-aos='fade-in'>
+        <div id='projects'>
+             <div data-aos='fade-in'>
                 <NavTitleStyle navColor='main'>
                     Projects
                 </NavTitleStyle>
-            </a>
+            </div>
             <div className={styles.projectsGrid}>
                 <Project 
                     name={projectsArr[0].name} 

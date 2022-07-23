@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import style from './Header.module.css';
 
@@ -10,20 +11,20 @@ function Header () {
         <header>
             <div className={style.profileName}>
                 <div>
-                    <a href='/#contact'>
+                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
                         <img className={style.profilePicture} src={picture} alt="My Happy Face" />
-                    </a>
+                    </Link>
                 </div>
                 <p>Wendy Teo</p>
             </div>
 
             <nav>
                 <p></p>
-                <p><a href='/#aboutMe'>About Me</a></p>
-                <p><a href='/#education'>Education</a></p>
-                <p><a href='/#projects'>Projects</a></p>
-                <p><a href='/#experience'>Experience</a></p>
-                <p><a href='/#tools'>Tools</a></p>
+                <p><Link to="aboutMe" spy={true} smooth={true} offset={50} duration={500}>About Me</Link></p>
+                <p><Link to="education" spy={true} smooth={true} offset={50} duration={500}>Education</Link></p>
+                <p><Link to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></p>
+                <p><Link to="experience" spy={true} smooth={true} offset={50} duration={500}>Experience</Link></p>
+                <p><Link to="tools" spy={true} smooth={true} offset={50} duration={500}>Tools</Link></p>
             </nav>
         </header>
     );
