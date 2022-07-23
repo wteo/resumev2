@@ -5,7 +5,6 @@
 .toolDescription {
     font-size: 150%;
     margin-top: -1.5rem;
-    padding-bottom: 2rem;
     padding-left: 5rem;
 }
 
@@ -13,6 +12,33 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 3rem;
+}
+
+.changeButton {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    width: 7.5rem;
+    height: 1.5rem;
+    background-color: rgba(0,0,0,0);
+    color: var(--main-p-text-color);
+    border-color: var(--main-p-text-color);
+    border-radius: 3rem;
+    transition: box-shadow 0.5s;
+}
+
+.changeButton:hover {
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px 10px #393939;
+}
+
+.toolText {
+    display: inline-block;
+    padding: 0.25rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    font-size: 150%;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0.3rem;
 }
 
 @media (max-width: 780px) {

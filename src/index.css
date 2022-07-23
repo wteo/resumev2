@@ -26,3 +26,9 @@ body {
 p {
   color: var(--main-p-text-color);
 }
+
+a {
+  color: var(--alternate-p-text-color);
+  text-decoration: none; /* default state for texts not underline*/
+  cursor: pointer;
+}

@@ -23,7 +23,6 @@
 .projectContainer:hover {
     background-color: var(--hover-main-background-color);
     box-shadow: 5px 5px 20px #393939;
-    cursor: pointer;
 }
 
 .projectName, .projectDate, .projectDescription {
