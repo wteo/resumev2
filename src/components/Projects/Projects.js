@@ -53,7 +53,7 @@ function Projects() {
 
     return (
         <div>
-             <a id='projects' href='/'>
+             <a id='projects' href='/' data-aos='fade-in'>
                 <NavTitleStyle navColor='main'>
                     Projects
                 </NavTitleStyle>

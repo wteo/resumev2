@@ -50,57 +50,57 @@ function Tools() {
 
     return (
         <div className={styles.toolsStyling}>
-            <a id='tools'  href='/'>
+            <a id='tools'  href='/' data-aos='fade-in'>
                 <NavTitleStyle navColor='main'>
                     Tools
                 </NavTitleStyle>
             </a>
-            <p className={styles.toolDescription}>These are the tools / technologies I have used to create my projects.</p>
-            <button className={styles.changeButton} onClick={clickHandler}>{iconImage ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
-            <section className={styles.toolsListGrid}>
+            <p className={styles.toolDescription} data-aos='fade-in'>These are the tools / technologies I have used to create my projects.</p>
+            <button className={styles.changeButton} onClick={clickHandler} data-aos='fade-in'>{iconImage ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
+            <section className={styles.toolsListGrid} data-aos='fade-in'>
                 <ToolsContainer toolType='Languages'>
                     {iconImage && <Tool imageLink={jsIcon} toolName='JavaScript'/>}
-                    {!iconImage && <p className={styles.toolText}>JavaScript</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>JavaScript</p>}
                     {iconImage && <Tool imageLink={es6} toolName='ES6'/>}
-                    {!iconImage && <p className={styles.toolText}>ES6</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>ES6</p>}
                     {iconImage && <Tool imageLink={css} toolName='CSS'/>}
-                    {!iconImage && <p className={styles.toolText}>CSS</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>CSS</p>}
                     {iconImage && <Tool imageLink={html} toolName='HTML'/>}
-                    {!iconImage && <p className={styles.toolText}>HTML</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>HTML</p>}
                 </ToolsContainer>
                 <ToolsContainer toolType='JavaScript UI Library'>
                     {iconImage && <Tool imageLink={react} toolName='react'/>}
-                    {!iconImage && <p className={styles.toolText}>React</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>React</p>}
                 </ToolsContainer>
                 <ToolsContainer toolType='Code Editor'>
                     {iconImage && <Tool imageLink={vscode} toolName='vscode'/>}
-                    {!iconImage && <p className={styles.toolText}>VSCode</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>VSCode</p>}
                 </ToolsContainer>
                 <ToolsContainer toolType='Package Manager'>
                     {iconImage && <Tool imageLink={npm} toolName='NPM'/>}
-                    {!iconImage && <p className={styles.toolText}>NPM</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>NPM</p>}
                 </ToolsContainer>
                 <ToolsContainer toolType='Back-end Runtime Platforms'>
                     {iconImage && <Tool imageLink={nodeJS} toolName='nodeJS'/>}
-                    {!iconImage && <p className={styles.toolText}>NodeJS</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>NodeJS</p>}
                     {iconImage && <Tool imageLink={firebase} toolName='Firebase'/>}
-                    {!iconImage && <p className={styles.toolText}>Firebase</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>Firebase</p>}
                 </ToolsContainer>
                 <ToolsContainer toolType='JavaScript Frameworks / Modules'>
                     {iconImage && <Tool imageLink={express} toolName='expressJS'/>}
-                    {!iconImage && <p className={styles.toolText}>Express</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>Express</p>}
                     {iconImage && <Tool imageLink={mocha} toolName='mochaJS'/>}
-                    {!iconImage && <p className={styles.toolText}>Mocha</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>Mocha</p>}
                     {iconImage && <Tool imageLink={chai} toolName='chaiJS'/>}
-                    {!iconImage && <p className={styles.toolText}>Chai</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>Chai</p>}
                     {iconImage && <Tool imageLink={nodemon} toolName='nodemon'/>}
-                    {!iconImage && <p className={styles.toolText}>Nodemon</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>Nodemon</p>}
                 </ToolsContainer>
                 <ToolsContainer toolType='Deployment'>
                     {iconImage && <Tool imageLink={netlify} toolName='netlify'/>}
-                    {!iconImage && <p className={styles.toolText}>Netlify</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>Netlify</p>}
                     {iconImage && <Tool imageLink={github} toolName='GitHub'/>}
-                    {!iconImage && <p className={styles.toolText}>GitHub</p>}
+                    {!iconImage && <p className={styles.toolText} data-aos='fade-in'>GitHub</p>}
                 </ToolsContainer>
             </section>
         </div>

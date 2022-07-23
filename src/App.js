@@ -11,13 +11,13 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.appGrid}>
-      <AboutMe />
-      <Education />
-      <Header />
-      <Projects />
-      <Experience />
-      <Tools />
-      <Footer />
+      <AboutMe/>
+      <Education/>
+      <Header/>
+      <Projects/>
+      <Experience/>
+      <Tools/>
+      <Footer/>
     </div>
   );
 }
