@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './Projects.module.css';
-import Project from './Project/Project';
+import Project from './Project';
 import NavTitleStyle from '../../UI/Nav-Title-style';
 
 import foodOrder from '../../images/foodOrder.jpg';

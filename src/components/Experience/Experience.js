@@ -1,7 +1,7 @@
 import React from "react";
 
-import Job from './JobSummary/Job';
-import JobDescription from './JobSummary/JobDescription';
+import Job from './Job';
+import JobDescription from './JobDescription';
 import NavTitleStyle from "../../UI/Nav-Title-style";
 
 import styles from './Experience.module.css'; 
