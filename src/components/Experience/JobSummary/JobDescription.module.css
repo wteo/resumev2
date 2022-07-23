@@ -1,26 +1,17 @@
 .jobDescriptionStyle {
     margin-top: -2rem;
     margin-bottom: 3rem;
+    padding-left: 6.5rem;
 }
 
-.descriptionContainer p {
+.task{
     margin: auto 0;
     padding-bottom: 1rem;
     color: var(--alternate-p-text-color, gold);
 }
 
-.descriptionContainer {
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    column-gap: 1rem;
-}
-
-.dotPoint {
-    padding-left: 5rem;
-}
-
 @media (max-width: 780px) {
-    .jobDescriptionStyle p {
+    .task {
         font-size: 75%;
     }
 }
