@@ -1,0 +1,11 @@
+.toolType {
+    font-size: 175%;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.toolsList {
+    padding-left: 5rem;
+}

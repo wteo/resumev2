@@ -1,0 +1,11 @@
+.iconContainer {
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    background-color: white;
+}
