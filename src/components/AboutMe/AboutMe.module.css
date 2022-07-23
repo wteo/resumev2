@@ -1,7 +1,7 @@
 .aboutMeOuterContainer {
     display: flex;
     flex-direction: column;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
 }
 
 .aboutMeOuterContainer div, .aboutMeOuterContainer p {
