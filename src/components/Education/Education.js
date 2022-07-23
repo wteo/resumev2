@@ -31,9 +31,11 @@ function Education() {
 
     return (
         <div className={styles.educationContainer}>
-            <NavTitleStyle navColor='alt'>
-                Education
-            </NavTitleStyle>
+            <a id='education' href='/'>
+                <NavTitleStyle navColor='alt'>
+                    Education
+                </NavTitleStyle>
+            </a>
             <div className={styles.coursesContainer}>
                 <Course 
                     title={coursesArr[0].courseTitle}

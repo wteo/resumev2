@@ -14,6 +14,7 @@ header p {
     margin: 0;
     color: var(--main-p-text-color);
     white-space: nowrap;
+    display: inline;
 }
 
 .profilePicture {
@@ -52,6 +53,9 @@ nav p {
 
 nav p:hover, nav p:active {
     text-decoration: underline;
+}
+
+nav p a:hover {
     cursor: pointer;
 }
 

@@ -40,6 +40,10 @@
     padding: 0.5rem;
 }
 
+#github a {
+    color: var(--alternate-p-text-color);
+}
+
 #copyright {
     margin-top: 5rem;
 }

@@ -17,11 +17,11 @@ function Header () {
 
             <nav>
                 <p></p>
-                <p>About Me</p>
-                <p>Education</p>
-                <p>Projects</p>
-                <p>Experience</p>
-                <p>Tools</p>
+                <p><a href='/#aboutMe'>About Me</a></p>
+                <p><a href='/#education'>Education</a></p>
+                <p><a href='/#projects'>Projects</a></p>
+                <p><a href='/#experience'>Experience</a></p>
+                <p><a href='/#tools'>Tools</a></p>
             </nav>
         </header>
     );

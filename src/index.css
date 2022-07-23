@@ -28,7 +28,7 @@ p {
 }
 
 a {
-  color: var(--alternate-p-text-color);
+  color: var(--main-p-text-color);
   text-decoration: none; /* default state for texts not underline*/
   cursor: pointer;
 }

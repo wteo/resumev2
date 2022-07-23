@@ -9,9 +9,11 @@ function AboutMe() {
     return (
         <div className={styles.aboutMeOuterContainer}>
             <div>
-                <NavTitleStyle navColor='main'>
-                    About Me
-                </NavTitleStyle>
+                <a id='aboutMe' href='/'>
+                    <NavTitleStyle navColor='main'>
+                        About Me
+                    </NavTitleStyle>
+                </a>
             </div>
             <div className={styles.aboutMeInnerContainer}>
                 <div className={styles.aboutMeSummary}>

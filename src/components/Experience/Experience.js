@@ -28,9 +28,11 @@ function Experience() {
 
     return (
         <div className={styles.experienceStyling}>
-            <NavTitleStyle navColor='alt'>
-                Experience
-            </NavTitleStyle>
+            <a id='experience' href='/'>
+                <NavTitleStyle navColor='alt'>
+                    Experience
+                </NavTitleStyle>
+            </a>
             <div className={styles.jobs}>
                 <div className={styles.jobAndDescription}>
                     <Job company={jobsArr[0].company} dates={jobsArr[0].dates} title={jobsArr[0].title}/>
