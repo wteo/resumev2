@@ -10,7 +10,9 @@ function Header () {
         <header>
             <div className={style.profileName}>
                 <div>
-                    <img className={style.profilePicture} src={picture} alt="My Happy Face" />
+                    <a href='/#contact'>
+                        <img className={style.profilePicture} src={picture} alt="My Happy Face" />
+                    </a>
                 </div>
                 <p>Wendy Teo</p>
             </div>

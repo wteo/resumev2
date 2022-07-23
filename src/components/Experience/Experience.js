@@ -28,7 +28,7 @@ function Experience() {
 
     return (
         <div className={styles.experienceStyling}>
-            <a id='experience' href='/' data-aos='fade-in'>
+            <a id='experience' href='/#experience' data-aos='fade-in'>
                 <NavTitleStyle navColor='alt'>
                     Experience
                 </NavTitleStyle>

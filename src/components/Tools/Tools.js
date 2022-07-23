@@ -50,7 +50,7 @@ function Tools() {
 
     return (
         <div className={styles.toolsStyling}>
-            <a id='tools'  href='/' data-aos='fade-in'>
+            <a id='tools'  href='/#tools' data-aos='fade-in'>
                 <NavTitleStyle navColor='main'>
                     Tools
                 </NavTitleStyle>

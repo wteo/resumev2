@@ -55,10 +55,6 @@ nav p:hover, nav p:active {
     text-decoration: underline;
 }
 
-nav p a:hover {
-    cursor: pointer;
-}
-
 
 @media (max-width: 780px) {
     nav {

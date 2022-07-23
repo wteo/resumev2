@@ -9,7 +9,7 @@ function AboutMe() {
     return (
         <div className={styles.aboutMeOuterContainer}>
             <div>
-                <a id='aboutMe' href='/' data-aos='fade-in'>
+                <a id='aboutMe' href='/#aboutMe' data-aos='fade-in'>
                     <NavTitleStyle navColor='main'>
                         About Me
                     </NavTitleStyle>
