@@ -35,7 +35,8 @@ import nodemon from '../../icons/nodemon.webp';
 import netlify from '../../icons/netlify.png';
 import github from '../../icons/github.png';
 
-export const toolIconContext = createContext();
+
+export const IconContext = createContext();
 
 function Tools() {
     
@@ -47,7 +48,7 @@ function Tools() {
     };
 
     return (
-        <toolIconContext.Provider value={ icon }>
+        <IconContext.Provider value={ icon }>
             <div className={styles.toolsStyling} id='tools'>
                 <div data-aos='fade-in'>
                     <NavTitleStyle navColor='main'>
@@ -88,7 +89,7 @@ function Tools() {
                     </ToolsContainer>
                 </section>
             </div>
-        </toolIconContext.Provider>
+        </IconContext.Provider>
     );
 }
 

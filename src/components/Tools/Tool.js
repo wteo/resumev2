@@ -1,24 +1,24 @@
-import React, { useContext } from 'react';
+import React, { Fragment, useContext } from 'react';
 
 import styles from './Tool.module.css';
-import { toolIconContext } from './Tools';
+import { IconContext } from './Tools';
 
 function Tool(props) {
 
-    const icon = useContext(toolIconContext);
+    const icon = useContext(IconContext);
 
     const isIcon = ( 
         <div className={styles.iconContainer} data-aos='fade-in'>
-            <Tool imageLink={props.imageLink} toolName={props.toolName}/>
+            <img className={styles.iconStyling} src={props.imageLink} alt={props.toolName}/>
         </div>);
 
     const isText = <p className={styles.toolText} data-aos='fade-in'>{props.toolName}</p>
 
     return (
-        <>
+        <Fragment>
             {icon && isIcon}
             {!icon && isText}
-        </>
+        </Fragment>
     );
 }
 
