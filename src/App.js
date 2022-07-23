@@ -3,7 +3,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
-import Skills from './components/Skills/Skills';
+import Tools from './components/Tools/Tools';
 import Footer from './components/Footer/Footer';
 
 import styles from './App.module.css';
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Projects />
       <Experience />
-      <Skills />
+      <Tools />
       <Footer />
     </div>
   );

@@ -21,7 +21,7 @@ function AboutMe() {
                     <br/>
                     <p className={styles.aboutMeSubTitle}>General</p>
                     <p>I was born in Malaysia. Hence, I can speak 4 different languages: English (my most used language), Malay, Mandarin and Hokkien.</p>
-                    <p>For leisure, I enjoy reading cycling and reading books.</p>
+                    <p>For leisure, I enjoy cycling and reading books.</p>
                 </div>
                 <div className={styles.aboutMeImageContainer}>
                     <img className={styles.profileImage} src={profilePicture} alt='myself'/>

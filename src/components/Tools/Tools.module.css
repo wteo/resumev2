@@ -1,0 +1,54 @@
+.toolsStyling {
+    padding-bottom: 5rem;
+}
+
+.toolDescription {
+    font-size: 150%;
+    margin-top: -1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+
+.toolsListGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+}
+
+.toolType {
+    font-size: 175%;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.toolsList {
+    padding-left: 5rem;
+}
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    background-color: white;
+}
+
+.iconContainer {
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+@media (max-width: 780px) {
+    .toolsListGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .toolDescription {
+        font-size: 115%;
+    }
+    
+    .toolType {
+        font-size: 130%;
+    }
+}

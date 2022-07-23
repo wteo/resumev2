@@ -21,7 +21,7 @@ function Header () {
                 <p>Education</p>
                 <p>Projects</p>
                 <p>Experience</p>
-                <p>Skills</p>
+                <p>Tools</p>
             </nav>
         </header>
     );
