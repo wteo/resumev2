@@ -22,7 +22,7 @@
 
 .projectContainer:hover {
     background-color: var(--hover-main-background-color);
-    box-shadow: 5px 5px 20px #393939;
+    box-shadow: 5px 5px 20px #7c7c7c;
     cursor: pointer;
 }
 

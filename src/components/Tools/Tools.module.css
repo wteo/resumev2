@@ -28,7 +28,7 @@
 
 .changeButton:hover {
     cursor: pointer;
-    box-shadow: 2.5px 2.5px 10px #393939;
+    box-shadow: 2.5px 2.5px 10px #888888;
 }
 
 .toolText {
@@ -37,7 +37,7 @@
     margin-right: 2rem;
     margin-bottom: 2rem;
     font-size: 150%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(108, 108, 108, 0.3);
     border-radius: 0.3rem;
 }
 
