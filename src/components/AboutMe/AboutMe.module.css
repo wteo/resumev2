@@ -51,9 +51,9 @@
     }
 
     .profileImage {
-        width:  22.5rem;
-        height: 22.5rem;
-        padding: 0.5rem;
+        width:  18rem;
+        height: 18em;
+        padding: 0.4rem;
         border-radius: 1rem;
         border: 1px solid var(--header-background-color);
     }
