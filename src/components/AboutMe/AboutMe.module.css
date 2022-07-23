@@ -42,6 +42,10 @@
 
 @media (max-width: 780px) {
 
+    .aboutMeOuterContainer p {
+        padding-left: 2rem;
+    }
+
     .aboutMeInnerContainer {
         grid-template-columns: 1fr;
     }

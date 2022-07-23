@@ -23,6 +23,11 @@
 }
 
 @media (max-width: 780px) {
+
+    .courseContainer p {
+        padding-left: 2rem;
+    }
+
     .courseTitle {
         font-size: 115%;
     }

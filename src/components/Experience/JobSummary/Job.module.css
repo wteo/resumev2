@@ -33,12 +33,15 @@
 }
 
 @media (max-width: 780px) {
+
     .company {
         font-size: 115%;
+        padding-left: 2rem;
     }
     
     .jobDates, .jobTitle {
         font-size: 95%;
+        padding-left: 2rem;
     }
 
     .datesAndTitleContainer {

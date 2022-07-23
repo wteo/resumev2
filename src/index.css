@@ -6,18 +6,17 @@
 
 :root {
   --h1-text-color: white;
-  --alternate-h1-text-color: #c0904d;
+  --alternate-h1-text-color: #212834;
   --main-p-text-color: white;
-  --alternate-p-text-color: #c0904d;
-  --header-background-color: #455073;
-  --hover-header-background-color: #596795;
-  --hover-main-background-color: rgb(236, 191, 129);
+  --alternate-p-text-color: #212834;
+  --header-background-color: #048BC2;
+  --hover-main-background-color: #425067;
   --alternate-background-color: white;
-  --footer-background-color: #455073;
+  --footer-background-color: #048BC2;
 }
 
 body {
-  background-color: #c0904d;
+  background-color: #212834;
   font-family: 'Times New Roman', 'Verdana', 'Arial';
   z-index: 500;
 }

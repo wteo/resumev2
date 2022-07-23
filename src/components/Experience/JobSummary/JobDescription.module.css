@@ -11,7 +11,15 @@
 }
 
 @media (max-width: 780px) {
+
+    .jobDescriptionStyle {
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+        padding-left: 1.5rem;
+    }
+
     .task {
         font-size: 75%;
+        margin-left: 2rem;
     }
 }

@@ -9,3 +9,11 @@
 .toolsList {
     padding-left: 5rem;
 }
+
+@media (max-width: 780px) {
+    .toolType {
+        padding-left: 5rem;
+    }
+    
+
+}
