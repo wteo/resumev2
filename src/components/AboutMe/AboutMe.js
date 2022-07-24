@@ -3,7 +3,7 @@ import React from 'react';
 import NavTitleStyle from '../../UI/Nav-Title-style';
 
 import styles from './AboutMe.module.css';
-import profilePicture from '../../images/profile2.jpg';
+import profilePicture from '../../images/profile3.jpg';
 
 function AboutMe() {
     return (
