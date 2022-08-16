@@ -7,13 +7,19 @@ import NavTitleStyle from '../../UI/Nav-Title-style';
 import foodOrder from '../../images/foodOrder.jpg';
 import maze from '../../images/maze.PNG';
 import demandLetter from '../../images/demandLetter.jpg';
-import pokedex from '../../images/pokedex.webp';
+import pokedex from '../../images/pokedex.PNG';
 import fillet from '../../images/fillet.jpg';
 import timer from '../../images/timer.PNG';
 
 function Projects() {
 
     const projectsArr = [{
+        name: 'First Generation Pokedex',
+        imageLink: pokedex,
+        projectLink: 'https://github.com/wteo/firstGenPokedex',
+        date: 'Aug 22 | HTML CSS JS React Redux',
+        description: 'Get to know more about the original 151 Pokemon here. An app where you can search and find details on your favourite Pokemon.'
+    }, {
         name: 'Food Order',
         imageLink: foodOrder,
         projectLink: 'https://github.com/wteo/shoppingOrder',
@@ -31,12 +37,6 @@ function Projects() {
         projectLink: 'https://github.com/wteo/demandLetter',
         date: 'Mar 22 | HTML CSS JS',
         description: 'A customizable template of a demand letter that anyone can use to print and send to their customers/clients.'
-    }, {
-        name: 'First Generation Pokedex',
-        imageLink: pokedex,
-        projectLink: 'https://github.com/wteo/firstGenPokedex',
-        date: 'Feb 22 | HTML CSS JS',
-        description: 'Get to know more about the original 151 Pokemon here. A web page that lists all the first generation Pokemon in the order of the official Pokedex.'
     }, {
         name: 'Fillet - A Cooking Recipe Webpage',
         imageLink: fillet,
