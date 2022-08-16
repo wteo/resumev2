@@ -26,6 +26,7 @@ import nodeJS from '../../icons/nodeJS.jpg';
 import firebase from '../../icons/firebase.jfif';
 
 // JS Frameworks or Modules
+import redux from '../../icons/redux.png';
 import express from '../../icons/expressJS.png';
 import mocha from '../../icons/mochaJS.png';
 import chai from '../../icons/chaiJS.png';
@@ -34,6 +35,9 @@ import nodemon from '../../icons/nodemon.webp';
 // Deployment
 import netlify from '../../icons/netlify.png';
 import github from '../../icons/github.png';
+
+// React Frameworks or Modules
+import reactRouter from '../../icons/reactRouter.png';
 
 
 export const IconContext = createContext();
@@ -76,6 +80,7 @@ function Tools() {
                         <Tool imageLink={firebase} toolName='Firebase'/>
                     </ToolsContainer>
                     <ToolsContainer toolType='JavaScript Frameworks / Modules'>
+                        <Tool imageLink={redux} toolName='Redux'/>
                         <Tool imageLink={express} toolName='Express'/>
                         <Tool imageLink={mocha} toolName='Mocha'/>
                         <Tool imageLink={chai} toolName='Chai'/>
@@ -84,6 +89,9 @@ function Tools() {
                     <ToolsContainer toolType='Deployment'>
                         <Tool imageLink={netlify} toolName='Netlify'/>
                         <Tool imageLink={github} toolName='GitHub'/>
+                    </ToolsContainer>
+                    <ToolsContainer toolType='React Frameworks / Modules'>
+                        <Tool imageLink={reactRouter} toolName='React Router'/>
                     </ToolsContainer>
                 </section>
             </div>
