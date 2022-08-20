@@ -8,7 +8,7 @@ import foodOrder from '../../images/foodOrder.jpg';
 import maze from '../../images/maze.PNG';
 import demandLetter from '../../images/demandLetter.jpg';
 import pokedex from '../../images/pokedex.PNG';
-import fillet from '../../images/fillet.jpg';
+import photoGallery from '../../images/photoGallery.png';
 import timer from '../../images/timer.PNG';
 
 function Projects() {
@@ -17,8 +17,14 @@ function Projects() {
         name: 'First Generation Pokedex',
         imageLink: pokedex,
         projectLink: 'https://github.com/wteo/firstGenPokedex',
-        date: 'Aug 22 | HTML CSS JS React Redux',
+        date: 'Aug 22 | JS React Redux',
         description: 'Get to know more about the original 151 Pokemon here. An app where you can search and find details on your favourite Pokemon.'
+    }, {
+        name: 'Photo Gallery',
+        imageLink: photoGallery,
+        projectLink: 'https://github.com/wteo/photoGallery',
+        date: 'Aug 22 | HTML CSS',
+        description: 'Built out of vanilla CSS and HTML, I built this landing page featuring my travel photos in Indonesia.'
     }, {
         name: 'Food Order',
         imageLink: foodOrder,
@@ -35,14 +41,8 @@ function Projects() {
         name: 'Demand Letter',
         imageLink: demandLetter,
         projectLink: 'https://github.com/wteo/demandLetter',
-        date: 'Mar 22 | HTML CSS JS',
+        date: 'Mar 22 | HTML JS',
         description: 'A customizable template of a demand letter that anyone can use to print and send to their customers/clients.'
-    }, {
-        name: 'Fillet - A Cooking Recipe Webpage',
-        imageLink: fillet,
-        projectLink: 'https://github.com/wteo/fillet',
-        date: 'Feb 22 | HTML CSS JS',
-        description: 'A web page of a cooking recipe for one of my favourite dishes: Salmon fillets with caramelised onion and wilted greens.'
     }, {
         name: 'Timer',
         imageLink: timer,
