@@ -18,13 +18,13 @@ function Projects() {
         imageLink: pokedex,
         projectLink: 'https://github.com/wteo/firstGenPokedex',
         date: 'Aug 22 | React Redux JS',
-        description: 'Get to know more about the original 151 Pokemon here. A web page that lists and gives you basic information about the first generation Pokemon in the same order as the official Pokedex.'
+        description: 'Get to know more about the original 151 Pokemon here. With PokeAPI, use this search engine app to find data on your favourite Pokemon.'
     }, {
         name: 'Photo Gallery',
         imageLink: photoGallery,
         projectLink: 'https://github.com/wteo/photoGallery',
         date: 'Aug 22 | CSS HTML',
-        description: 'Built out of vanilla CSS and HTML without JavaScript, I built this single page website featuring my travel photos in Indonesia.'
+        description: 'Built out of CSS and HTML without JavaScript, this single page website features my travel photos in Indonesia.'
     }, {
         name: 'Food Order',
         imageLink: foodOrder,
