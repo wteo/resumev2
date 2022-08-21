@@ -24,7 +24,7 @@ function Projects() {
         imageLink: photoGallery,
         projectLink: 'https://github.com/wteo/photoGallery',
         date: 'Aug 22 | CSS HTML',
-        description: 'Built out of vanilla CSS and HTML without the help of JavaScript, I built this landing page featuring my travel photos in Indonesia.'
+        description: 'Built out of vanilla CSS and HTML without JavaScript, I built this single page website featuring my travel photos in Indonesia.'
     }, {
         name: 'Food Order',
         imageLink: foodOrder,
