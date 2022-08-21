@@ -30,7 +30,7 @@
     transition: text-decoration 0.5s;
 }
 
-#email:hover, #github:hover {
+#email:hover, #github:hover, #resume:hover {
     text-decoration: underline;
 }
 
@@ -39,12 +39,16 @@
     padding: 0.5rem;
 }
 
-#github a {
+#github a, #resume a {
     color: var(--alternate-p-text-color);
 }
 
+#resume {
+    margin: 3rem;
+}
+
 #copyright {
-    margin-top: 5rem;
+    margin-top: 3.5rem;
 }
 
 #copyright, #place {
