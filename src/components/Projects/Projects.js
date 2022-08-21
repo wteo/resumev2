@@ -17,37 +17,37 @@ function Projects() {
         name: 'First Generation Pokedex',
         imageLink: pokedex,
         projectLink: 'https://github.com/wteo/firstGenPokedex',
-        date: 'Aug 22 | JS React Redux',
-        description: 'Get to know more about the original 151 Pokemon here. An app where you can search and find details on your favourite Pokemon.'
+        date: 'Aug 22 | React Redux JS',
+        description: 'Get to know more about the original 151 Pokemon here. A web page that lists and gives you basic information about the first generation Pokemon in the same order as the official Pokedex.'
     }, {
         name: 'Photo Gallery',
         imageLink: photoGallery,
         projectLink: 'https://github.com/wteo/photoGallery',
-        date: 'Aug 22 | HTML CSS',
+        date: 'Aug 22 | CSS HTML',
         description: 'Built out of vanilla CSS and HTML without the help of JavaScript, I built this landing page featuring my travel photos in Indonesia.'
     }, {
         name: 'Food Order',
         imageLink: foodOrder,
         projectLink: 'https://github.com/wteo/shoppingOrder',
-        date: 'June 22 | HTML CSS JS React',
+        date: 'June 22 | React JS CSS HTML',
         description: 'A food order app which you can select meals for home delivery.'
     }, {
         name: 'Maze',
         imageLink: maze,
         projectLink: 'https://github.com/wteo/maze',
-        date: 'Apr 22 | HTML CSS JS',
+        date: 'Apr 22 | JS CSS HTML',
         description: 'Play a maze game. Navigate your starting ball through a randomized maze and reach your end target: the green square.'
     }, {
         name: 'Demand Letter',
         imageLink: demandLetter,
         projectLink: 'https://github.com/wteo/demandLetter',
-        date: 'Mar 22 | HTML JS',
+        date: 'Mar 22 | JS DOM HTML',
         description: 'A customizable template of a demand letter that anyone can use to print and send to their customers/clients.'
     }, {
         name: 'Timer',
         imageLink: timer,
         projectLink: 'https://github.com/wteo/timer',
-        date: 'Jan 22 | HTML CSS JS',
+        date: 'Jan 22 | JS CSS HTML',
         description: 'Use this interactive online timer to countdown from 30 to 0 in seconds.'
     }];
 
