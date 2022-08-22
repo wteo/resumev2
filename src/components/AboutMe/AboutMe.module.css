@@ -41,6 +41,16 @@
     border: 2px solid var(--header-background-color);
 }
 
+#resume {
+    margin-top: 2rem;
+    font-size: 150%;
+}
+
+#linkArrow {
+    padding-left: 0.5rem;
+    width: 150%;
+}
+
 @media (max-width: 780px) {
 
     .aboutMeOuterContainer p {

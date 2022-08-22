@@ -2,8 +2,6 @@ import React from 'react';
 
 import styles from './Footer.module.css';
 
-import resumeFile from '../../files/resume.pdf';
-
 function Footer() {
     return (
         <footer className={styles.footerStyling}>
@@ -16,11 +14,6 @@ function Footer() {
             <p id={styles.github}>
                 <a href='https://github.com/wteo/' target='_blank' rel='noreferrer'>
                     github.com/wteo/
-                </a>
-            </p>
-            <p id={styles.resume}>
-                <a href={resumeFile} target='_blank' rel='noreferrer'>
-                    Download Resume
                 </a>
             </p>
             <p id={styles.copyright}>© Wendy Teo 2022 •  Designs by Me!</p>
