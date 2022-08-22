@@ -43,7 +43,7 @@ nav {
 
 nav p {
     background-color: var(--header-background-color);
-    font-size: 85%;
+    font-size: 120%;
     transition: text-decoration 0.5s;
     padding-top: -3rem;
     padding-bottom: 0.75rem;
@@ -57,12 +57,22 @@ nav p:hover, nav p:active {
 
 
 @media (max-width: 780px) {
+
+    nav p {
+        font-size: 85%;
+    }
+
     nav {
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
 @media (max-width: 1150px) and (min-width: 779px) {
+
+    nav p {
+        font-size: 100%;
+    }
+
     nav {
         grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
