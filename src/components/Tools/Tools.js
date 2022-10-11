@@ -8,12 +8,17 @@ import styles from './Tools.module.css';
 
 // Languages
 import jsIcon from '../../icons/js.png';
+import tsIcon from '../../icons/ts.png';
 import es6 from '../../icons/es6.png';
 import html from '../../icons/html.png';
 import css from '../../icons/css.png';
 
+// CSS Frameworks
+import sass from '../../icons/sass.png';
+
 // JS UI Library
 import react from '../../icons/react.png';
+import vue from '../../icons/vue.png'
 
 // Code Editor
 import vscode from '../../icons/vscode.png';
@@ -62,12 +67,17 @@ function Tools() {
                 <section className={styles.toolsListGrid}>
                     <ToolsContainer toolType='Languages'>
                         <Tool imageLink={jsIcon} toolName='JavaScript'/>
+                        <Tool imageLink={tsIcon} toolName='TypeScript'/>
                         <Tool imageLink={es6} toolName='ES6'/>
                         <Tool imageLink={css} toolName='CSS'/>
                         <Tool imageLink={html} toolName='HTML'/>
                     </ToolsContainer>
-                    <ToolsContainer toolType='JavaScript UI Library'>
+                    <ToolsContainer toolType='CSS Framework'>
+                        <Tool imageLink={sass} toolName='Sass'/>
+                    </ToolsContainer>
+                    <ToolsContainer toolType='JavaScript UI Library / Framework'>
                         <Tool imageLink={react} toolName='React'/>
+                        <Tool imageLink={vue} toolName='Vue'/>
                     </ToolsContainer>
                     <ToolsContainer toolType='Code Editor'>
                         <Tool imageLink={vscode} toolName='VSCode'/>

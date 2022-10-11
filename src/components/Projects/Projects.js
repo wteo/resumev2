@@ -4,16 +4,23 @@ import styles from './Projects.module.css';
 import Project from './Project';
 import NavTitleStyle from '../../UI/Nav-Title-style';
 
+// images
+import solarSystem from '../../images/solarSystem.PNG';
+import pokedex from '../../images/pokedex.PNG';
+import photoGallery from '../../images/photoGallery.png';
 import foodOrder from '../../images/foodOrder.jpg';
 import maze from '../../images/maze.PNG';
 import demandLetter from '../../images/demandLetter.jpg';
-import pokedex from '../../images/pokedex.PNG';
-import photoGallery from '../../images/photoGallery.png';
-import timer from '../../images/timer.PNG';
 
 function Projects() {
 
     const projectsArr = [{
+        name: 'Solar System',
+        imageLink: solarSystem,
+        projectLink: 'https://github.com/wteo/solarSystem',
+        date: 'September 22 | Vue Sass CSS Animations',
+        description: 'A educational app teaching you about the Solar System.'
+    }, {
         name: 'First Generation Pokedex',
         imageLink: pokedex,
         projectLink: 'https://github.com/wteo/firstGenPokedex',
@@ -43,12 +50,6 @@ function Projects() {
         projectLink: 'https://github.com/wteo/demandLetter',
         date: 'Mar 22 | JS DOM HTML',
         description: 'A customizable template of a demand letter that anyone can use to print and send to their customers/clients.'
-    }, {
-        name: 'Timer',
-        imageLink: timer,
-        projectLink: 'https://github.com/wteo/timer',
-        date: 'Jan 22 | JS CSS HTML',
-        description: 'Use this interactive online timer to countdown from 30 to 0 in seconds.'
     }];
 
     return (
