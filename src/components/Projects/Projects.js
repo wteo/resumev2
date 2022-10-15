@@ -18,7 +18,7 @@ function Projects() {
         name: 'Solar System',
         imageLink: solarSystem,
         projectLink: 'https://github.com/wteo/solarSystem',
-        date: 'September 22 | Vue Sass CSS Animations',
+        date: 'September 22 | TypeScript Vue Sass CSS',
         description: 'A educational app teaching you about the Solar System.'
     }, {
         name: 'First Generation Pokedex',
