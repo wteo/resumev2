@@ -18,8 +18,8 @@ function Projects() {
         name: 'Solar System',
         imageLink: solarSystem,
         projectLink: 'https://github.com/wteo/solarSystem',
-        date: 'September 22 | TypeScript Vue Sass CSS',
-        description: 'A educational app teaching you about the Solar System.'
+        date: 'October 22 | TypeScript Vue Sass CSS',
+        description: 'An educational app teaching you about the Solar System. Built with a focus on design and CSS animations as well as a heavy use of Sass.'
     }, {
         name: 'First Generation Pokedex',
         imageLink: pokedex,
@@ -31,7 +31,7 @@ function Projects() {
         imageLink: photoGallery,
         projectLink: 'https://github.com/wteo/photoGallery',
         date: 'Aug 22 | CSS HTML',
-        description: 'Built out of CSS and HTML without JavaScript, this single page website features my travel photos in Indonesia.'
+        description: 'Built out of CSS and HTML without JavaScript, this landing page features my travel photos in Indonesia.'
     }, {
         name: 'Food Order',
         imageLink: foodOrder,
