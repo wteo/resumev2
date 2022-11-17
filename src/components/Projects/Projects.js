@@ -33,7 +33,7 @@ function Projects() {
         date: 'Aug 22 | CSS HTML',
         description: 'Built out of CSS and HTML without JavaScript, this landing page features my travel photos in Indonesia.'
     }, {
-        name: 'Food Order',
+        name: 'Shopping Order',
         imageLink: foodOrder,
         projectLink: 'https://github.com/wteo/shoppingOrder',
         date: 'June 22 | React JS CSS HTML',
