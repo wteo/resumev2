@@ -6,13 +6,15 @@ function JobDescription() {
     return (
         <ul className={styles.jobDescriptionStyle}>
             <li className={styles.task}>
-                Involves in key projects to automate parts of Accounts Receivables (AR) procedure, testing system and providing feedback.
+                Collaborate with UI/UX designers and content creators to implement NRMA website updates, 
+                ensuring a seamless user experience.
             </li>
             <li className={styles.task}>
-                Maintains day-to-day communication with clients via email/phone concerning aged/outstanding debts, liaising with high-profile personas, including CFOs, Company Secretaries, Senior Accountants, etc.
+                Develop and maintain responsive web pages and components using HTML, CSS, and JavaScript.
             </li>
             <li className={styles.task}>
-                Where necessary, contacts clients for payment and arranges/negotiates payment schedules.
+                Manage website content using CMS Drupal 7 and work closely with full stack developers to maintain 
+                functionality and security of website.
             </li>
         </ul>
     );
