@@ -9,8 +9,12 @@ import styles from './Experience.module.css';
 function Experience() {
 
     const jobsArr = [{
+        company: 'IAG',
+        dates: 'Jan 2023 - Present',
+        title: 'IT & Ops Intern',
+    },{
         company: 'Link Group',
-        dates: 'Nov 2019 – Present',
+        dates: 'Nov 2019 – Jan 2023',
         title: 'Credit Controller'
     }, {
         company: 'Hanson Construction Materials',
@@ -32,11 +36,11 @@ function Experience() {
                 Experience
             </NavTitleStyle>
             <div className={styles.jobs}>
+                <Job company={jobsArr[0].company} dates={jobsArr[0].dates} title={jobsArr[0].title}/>
                 <div className={styles.jobAndDescription}>
-                    <Job company={jobsArr[0].company} dates={jobsArr[0].dates} title={jobsArr[0].title}/>
+                    <Job company={jobsArr[1].company} dates={jobsArr[1].dates} title={jobsArr[1].title}/>
                     <JobDescription />
                 </div>
-                <Job company={jobsArr[1].company} dates={jobsArr[1].dates} title={jobsArr[1].title}/>
                 <Job company={jobsArr[2].company} dates={jobsArr[2].dates} title={jobsArr[2].title}/>
                 <Job company={jobsArr[3].company} dates={jobsArr[3].dates} title={jobsArr[3].title}/>
             </div>

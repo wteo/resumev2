@@ -10,15 +10,21 @@ import pokedex from '../../images/pokedex.PNG';
 import photoGallery from '../../images/photoGallery.png';
 import foodOrder from '../../images/foodOrder.jpg';
 import maze from '../../images/maze.PNG';
-import demandLetter from '../../images/demandLetter.jpg';
+import demandLetter from '../../images/demandLetter.PNG';
 
 function Projects() {
 
     const projectsArr = [{
+        name: 'DeLetter',
+        imageLink: demandLetter,
+        projectLink: 'https://github.com/wteo/deletter',
+        date: 'Nov 22 | TypeScript React Firebase Authentication',
+        description: 'DeLetter allows users to easily create a professional and legally-sound demand letter in just a few steps. Whether you are trying to collect a debt, resolve a contract dispute, or address any other legal issue, DeLetter has you covered.'
+    }, {
         name: 'Solar System',
         imageLink: solarSystem,
         projectLink: 'https://github.com/wteo/solarSystem',
-        date: 'October 22 | TypeScript Vue Sass CSS',
+        date: 'Oct 22 | TypeScript Vue Sass CSS',
         description: 'An educational app teaching you about the Solar System. Built with a focus on design and CSS animations as well as a heavy use of Sass.'
     }, {
         name: 'First Generation Pokedex',
@@ -44,12 +50,6 @@ function Projects() {
         projectLink: 'https://github.com/wteo/maze',
         date: 'Apr 22 | JS CSS HTML',
         description: 'Play a maze game. Navigate your starting ball through a randomized maze and reach your end target: the green square.'
-    }, {
-        name: 'Demand Letter',
-        imageLink: demandLetter,
-        projectLink: 'https://github.com/wteo/demandLetter',
-        date: 'Mar 22 | JS DOM HTML',
-        description: 'A customizable template of a demand letter that anyone can use to print and send to their customers/clients.'
     }];
 
     return (

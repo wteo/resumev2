@@ -7,7 +7,7 @@
     width:  22.5rem;
     height: 22.5rem;
     object-fit: cover;
-    filter: brightness(0.5);
+    filter: brightness(0.35);
     padding: 0.5rem;
     border-radius: 1rem;
 }
@@ -43,7 +43,7 @@
 
 .projectDate {
     top: 2.5rem;
-    font-size: 75%;
+    font-size: 115%;
     padding: 0.15rem;
 }
 

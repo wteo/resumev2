@@ -10,7 +10,7 @@ function Education() {
     const coursesArr = [{
         courseTitle: 'React - The Complete Guide',
         lecturer: 'By Maximilian Schwarzmuller',
-        date: 'Feb 2022 – Present | Udemy'
+        date: 'Feb 2022 – Oct 2022 | Udemy'
     }, {
         courseTitle: 'The Modern Javascript Bootcamp Course',
         lecturer: 'By Colt Steele, Stephen Grider',
