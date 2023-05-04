@@ -11,9 +11,9 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.appGrid}>
+      <Header/>
       <AboutMe/>
       <Education/>
-      <Header/>
       <Projects/>
       <Experience/>
       <Tools/>
