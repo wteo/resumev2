@@ -13,9 +13,9 @@ function App() {
     <div className={styles.appGrid}>
       <Header/>
       <AboutMe/>
-      <Education/>
-      <Projects/>
       <Experience/>
+      <Projects/>
+      <Education/>
       <Tools/>
       <Footer/>
     </div>

@@ -21,9 +21,9 @@ function Header () {
             <nav>
                 <div></div>
                 <p><Link to="aboutMe" spy={true} smooth={true} offset={50} duration={500}>About Me</Link></p>
-                <p><Link to="education" spy={true} smooth={true} offset={50} duration={500}>Education</Link></p>
-                <p><Link to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></p>
                 <p><Link to="experience" spy={true} smooth={true} offset={50} duration={500}>Experience</Link></p>
+                <p><Link to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></p>
+                <p><Link to="education" spy={true} smooth={true} offset={50} duration={500}>Education</Link></p>
                 <p><Link to="tools" spy={true} smooth={true} offset={50} duration={500}>Tools</Link></p>
             </nav>
         </header>
