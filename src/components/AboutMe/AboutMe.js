@@ -16,8 +16,8 @@ function AboutMe() {
             <div className={styles.aboutMeInnerContainer}>
                 <div className={styles.aboutMeSummary}>
                     <p className={styles.aboutMeSubTitle}>Self-Taught Developer</p>
-                    <p>I am a full-time professional, who has been studying web development slightly over a year now.</p>
-                    <p>After 9 years in Finance, I decided to pursue my interest in web design.</p>
+                    <p>I have been teaching myself how to code since May 2021.</p>
+                    <p>After 10 years in Finance, I decided to pursue my interest in web development.</p>
                     <br/>
                     <p className={styles.aboutMeSubTitle}>General</p>
                     <p>I was born in Malaysia. Hence, I can speak 4 different languages: English (my most used language), Malay, Mandarin and Hokkien.</p>

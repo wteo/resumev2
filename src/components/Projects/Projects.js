@@ -55,7 +55,7 @@ function Projects() {
     return (
         <div id='projects'>
             <NavTitleStyle navColor='main'>
-                Projects
+                Personal Projects
             </NavTitleStyle>
             <div className={styles.projectsGrid}>
                 <Project 

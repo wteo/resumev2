@@ -4,15 +4,26 @@
     padding-left: 6.5rem;
 }
 
+.workProject {
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+}
+
 .task{
     margin: auto 0;
     padding-bottom: 1rem;
-    color: var(--alternate-p-text-color, gold);
+    color: var(--alternate-p-text-color);
 }
 
 @media (max-width: 780px) {
 
     .jobDescriptionStyle {
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+        padding-left: 1.5rem;
+    }
+
+    .workProject {
         margin-top: -2rem;
         margin-bottom: 3rem;
         padding-left: 1.5rem;

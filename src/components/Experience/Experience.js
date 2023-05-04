@@ -9,7 +9,7 @@ import styles from './Experience.module.css';
 function Experience() {
 
     const jobsArr = [{
-        company: 'IAG',
+        company: 'Insurance Australia Group',
         dates: 'Jan 2023 - Present',
         title: 'IT & Ops Intern',
     },{

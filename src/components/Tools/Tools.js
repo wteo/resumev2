@@ -16,6 +16,14 @@ import css from '../../icons/css.png';
 // CSS Frameworks
 import sass from '../../icons/sass.png';
 
+// Design
+import figma from '../../icons/figma.jpg';
+
+// Communication / Documentation
+import jira from '../../icons/jira.jfif';
+import miro from '../../icons/miro.png';
+import confluence from '../../icons/confluence.jfif';
+
 // JS UI Library
 import react from '../../icons/react.png';
 import vue from '../../icons/vue.png'
@@ -33,9 +41,10 @@ import firebase from '../../icons/firebase.jfif';
 // JS Frameworks or Modules
 import redux from '../../icons/redux.png';
 import express from '../../icons/expressJS.png';
-import mocha from '../../icons/mochaJS.png';
-import chai from '../../icons/chaiJS.png';
-import nodemon from '../../icons/nodemon.webp';
+import webpack from '../../icons/webpack.png';
+
+// Testing
+import browserstack from '../../icons/browserstack.jfif';
 
 // Deployment
 import netlify from '../../icons/netlify.png';
@@ -43,6 +52,8 @@ import github from '../../icons/github.png';
 
 // React Frameworks or Modules
 import reactRouter from '../../icons/reactRouter.png';
+import reactTesting from '../../icons/reactTesting.png';
+import jest from '../../icons/jest.png';
 
 
 export const IconContext = createContext();
@@ -75,6 +86,14 @@ function Tools() {
                     <ToolsContainer toolType='CSS Framework'>
                         <Tool imageLink={sass} toolName='Sass'/>
                     </ToolsContainer>
+                    <ToolsContainer toolType='Design'>
+                        <Tool imageLink={figma} toolName='Figma'/>
+                    </ToolsContainer>
+                    <ToolsContainer toolType='Communication / Documentation'>
+                        <Tool imageLink={jira} toolName='Jira'/>
+                        <Tool imageLink={miro} toolName='Miro'/>
+                        <Tool imageLink={confluence} toolName='Confluence'/>
+                    </ToolsContainer>
                     <ToolsContainer toolType='JavaScript UI Library / Framework'>
                         <Tool imageLink={react} toolName='React'/>
                         <Tool imageLink={vue} toolName='Vue'/>
@@ -92,9 +111,10 @@ function Tools() {
                     <ToolsContainer toolType='JavaScript Frameworks / Modules'>
                         <Tool imageLink={redux} toolName='Redux'/>
                         <Tool imageLink={express} toolName='Express'/>
-                        <Tool imageLink={mocha} toolName='Mocha'/>
-                        <Tool imageLink={chai} toolName='Chai'/>
-                        <Tool imageLink={nodemon} toolName='Nodemon'/>
+                        <Tool imageLink={webpack} toolName='Webpack' />
+                    </ToolsContainer>
+                    <ToolsContainer toolType='Testing'>
+                        <Tool imageLink={browserstack} toolName='BrowserStack'/>
                     </ToolsContainer>
                     <ToolsContainer toolType='Deployment'>
                         <Tool imageLink={netlify} toolName='Netlify'/>
@@ -102,6 +122,8 @@ function Tools() {
                     </ToolsContainer>
                     <ToolsContainer toolType='React Frameworks / Modules'>
                         <Tool imageLink={reactRouter} toolName='React Router'/>
+                        <Tool imageLink={reactTesting} toolName='React Testing Library'/>
+                        <Tool imageLink={jest} toolName='Jest'/>
                     </ToolsContainer>
                 </section>
             </div>
