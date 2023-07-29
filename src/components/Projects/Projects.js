@@ -9,12 +9,18 @@ import solarSystem from '../../images/solarSystem.PNG';
 import pokedex from '../../images/pokedex.PNG';
 import photoGallery from '../../images/photoGallery.png';
 import foodOrder from '../../images/foodOrder.jpg';
-import maze from '../../images/maze.PNG';
 import demandLetter from '../../images/demandLetter.PNG';
+import syncbill from '../../images/syncbill.png';
 
 function Projects() {
 
     const projectsArr = [{
+        name: 'SyncBill',
+        imageLink: syncbill,
+        projectLink: 'https://syncbill.org/home',
+        date: 'Ongoing | React Firebase NodeJS MongoDB Hubspot(Website only)',
+        description: 'With close association with UTS Startups, I collaborate with other full stack / backend developers to build an online accounts receivable system, powered with AI.'
+    }, {
         name: 'DeLetter',
         imageLink: demandLetter,
         projectLink: 'https://github.com/wteo/deletter',
@@ -44,12 +50,6 @@ function Projects() {
         projectLink: 'https://github.com/wteo/shoppingOrder',
         date: 'June 22 | React JS CSS HTML',
         description: 'A food order app which you can select meals for home delivery.'
-    }, {
-        name: 'Maze',
-        imageLink: maze,
-        projectLink: 'https://github.com/wteo/maze',
-        date: 'Apr 22 | JS CSS HTML',
-        description: 'Play a maze game. Navigate your starting ball through a randomized maze and reach your end target: the green square.'
     }];
 
     return (
@@ -58,48 +58,15 @@ function Projects() {
                 Personal Projects
             </NavTitleStyle>
             <div className={styles.projectsGrid}>
-                <Project 
-                    name={projectsArr[0].name} 
-                    imageLink={projectsArr[0].imageLink}
-                    projectLink={projectsArr[0].projectLink} 
-                    date={projectsArr[0].date} 
-                    description={projectsArr[0].description}
-                />
-                <Project 
-                    name={projectsArr[1].name} 
-                    imageLink={projectsArr[1].imageLink} 
-                    projectLink={projectsArr[1].projectLink} 
-                    date={projectsArr[1].date} 
-                    description={projectsArr[1].description}
-                />
-                <Project 
-                    name={projectsArr[2].name} 
-                    imageLink={projectsArr[2].imageLink} 
-                    projectLink={projectsArr[2].projectLink} 
-                    date={projectsArr[2].date} 
-                    description={projectsArr[2].description}
-                />
-                <Project 
-                    name={projectsArr[3].name} 
-                    imageLink={projectsArr[3].imageLink} 
-                    projectLink={projectsArr[3].projectLink} 
-                    date={projectsArr[3].date} 
-                    description={projectsArr[3].description}
-                />
-                <Project 
-                    name={projectsArr[4].name} 
-                    imageLink={projectsArr[4].imageLink} 
-                    projectLink={projectsArr[4].projectLink} 
-                    date={projectsArr[4].date} 
-                    description={projectsArr[4].description}
-                />
-                <Project 
-                    name={projectsArr[5].name} 
-                    imageLink={projectsArr[5].imageLink} 
-                    projectLink={projectsArr[5].projectLink} 
-                    date={projectsArr[5].date} 
-                    description={projectsArr[5].description}
-                />
+                { projectsArr.map(project => 
+                    <Project 
+                        name={project.name} 
+                        imageLink={project.imageLink} 
+                        projectLink={project.projectLink} 
+                        date={project.date} 
+                        description={project.description} 
+                    />)
+                }
             </div>
         </div>
     );
