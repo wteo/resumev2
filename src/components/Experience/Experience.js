@@ -10,8 +10,8 @@ function Experience() {
 
     const jobsArr = [{
         company: 'Insurance Australia Group',
-        dates: 'Jan 2023 - Present',
-        title: 'Web Developer (contract)',
+        dates: 'Jan 2023 - Jul 2023',
+        title: 'Web Developer Intern',
     },{
         company: 'Link Group',
         dates: 'Nov 2019 – Jan 2023',

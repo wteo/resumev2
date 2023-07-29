@@ -9,6 +9,7 @@ import styles from './Tools.module.css';
 // Languages
 import jsIcon from '../../icons/js.png';
 import tsIcon from '../../icons/ts.png';
+import php from '../../icons/php.png';
 import es6 from '../../icons/es6.png';
 import html from '../../icons/html.png';
 import css from '../../icons/css.png';
@@ -28,11 +29,16 @@ import confluence from '../../icons/confluence.jfif';
 import react from '../../icons/react.png';
 import vue from '../../icons/vue.png'
 
+// CMS
+import drupal from '../../icons/drupal.png';
+import hubspot from '../../icons/hubspot.png'
+
 // Code Editor
 import vscode from '../../icons/vscode.png';
 
 // Package Manager
 import npm from '../../icons/npm.png';
+import yarn from '../../icons/yarn.png';
 
 // Back-end Runtime Platforms
 import nodeJS from '../../icons/nodeJS.jpg';
@@ -49,6 +55,8 @@ import browserstack from '../../icons/browserstack.jfif';
 // Deployment
 import netlify from '../../icons/netlify.png';
 import github from '../../icons/github.png';
+import hugo from '../../icons/hugo.png';
+import aws from '../../icons/aws.png';
 
 // React Frameworks or Modules
 import reactRouter from '../../icons/reactRouter.png';
@@ -79,6 +87,7 @@ function Tools() {
                     <ToolsContainer toolType='Languages'>
                         <Tool imageLink={jsIcon} toolName='JavaScript'/>
                         <Tool imageLink={tsIcon} toolName='TypeScript'/>
+                        <Tool imageLink={php} toolName='PHP'/>
                         <Tool imageLink={es6} toolName='ES6'/>
                         <Tool imageLink={css} toolName='CSS'/>
                         <Tool imageLink={html} toolName='HTML'/>
@@ -98,11 +107,16 @@ function Tools() {
                         <Tool imageLink={react} toolName='React'/>
                         <Tool imageLink={vue} toolName='Vue'/>
                     </ToolsContainer>
-                    <ToolsContainer toolType='Code Editor'>
-                        <Tool imageLink={vscode} toolName='VSCode'/>
+                    <ToolsContainer toolType='Content Management System'>
+                        <Tool imageLink={drupal} toolName='Drupal'/>
+                        <Tool imageLink={hubspot} toolName='Hubspot'/>
                     </ToolsContainer>
                     <ToolsContainer toolType='Package Manager'>
                         <Tool imageLink={npm} toolName='NPM'/>
+                        <Tool imageLink={yarn} toolName='Yarn'/>
+                    </ToolsContainer>
+                    <ToolsContainer toolType='Code Editor'>
+                        <Tool imageLink={vscode} toolName='VSCode'/>
                     </ToolsContainer>
                     <ToolsContainer toolType='Back-end Runtime Platforms'>
                         <Tool imageLink={nodeJS} toolName='NodeJS'/>
@@ -119,6 +133,8 @@ function Tools() {
                     <ToolsContainer toolType='Deployment'>
                         <Tool imageLink={netlify} toolName='Netlify'/>
                         <Tool imageLink={github} toolName='GitHub'/>
+                        <Tool imageLink={hugo} toolName='Hugo'/>
+                        <Tool imageLink={aws} toolName='AWS CDK'/>
                     </ToolsContainer>
                     <ToolsContainer toolType='React Frameworks / Modules'>
                         <Tool imageLink={reactRouter} toolName='React Router'/>
