@@ -15,6 +15,10 @@
     color: var(--alternate-p-text-color);
 }
 
+.projectTitle {
+    padding-left: 5rem;
+}
+
 .projectsGrid {
     max-width: 75rem;
     margin: 0 auto;

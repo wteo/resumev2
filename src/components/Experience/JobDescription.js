@@ -28,27 +28,25 @@ function JobDescription() {
                 Conducted cross-browser & device testing for consistent presentation & functionality across different platforms & screen sizes. 
             </li>
         </ul>
-        <section className={styles.jobDescriptionStyle}>
-            <h4>Work-Related Projects</h4>
-            <div className={styles.projectsGrid}>
-                <Project 
-                    name="Cafe De Vops" 
-                    imageLink={cafeDeVopsImg}
-                    projectLink={cafeDeVopsDoc}
-                    date="Jun 23 - Jul 23 | Figma Yarn VueJS AWS"
-                    description="Developed an intuitive Jira ticket creation form designed to streamline user interactions during the submission of routine requests. 
-                    Please note that as this is an internal project, I am only able to share the conceptual design that I personally designed."
-                />
-                <Project 
-                    name="Insurance Australia Limited (IAL)" 
-                    imageLink={IAL}
-                    projectLink="https://ial.com.au"
-                    date="Feb 23 | Hugo"
-                    description="Acquired proficiency in Hugo to independently modify the discontinued IAL brand's static website, 
-                    update content, & manage deployment, thereby ensuring continued support for existing customers."
-                />
-            </div>
-        </section>
+        <h3 className={styles.projectTitle}>Work-Related Projects</h3>
+        <div className={styles.projectsGrid}>
+            <Project 
+                name="Cafe De Vops" 
+                imageLink={cafeDeVopsImg}
+                projectLink={cafeDeVopsDoc}
+                date="Jun 23 - Jul 23 | Figma Yarn VueJS AWS"
+                description="Developed an intuitive Jira ticket creation form designed to streamline user interactions during the submission of routine requests. 
+                Please note that as this is an internal project, I am only able to share the conceptual design that I personally designed."
+            />
+            <Project 
+                name="Insurance Australia Limited (IAL)" 
+                imageLink={IAL}
+                projectLink="https://ial.com.au"
+                date="Feb 23 | Hugo"
+                description="Acquired proficiency in Hugo to independently modify the discontinued IAL brand's static website, 
+                update content, & manage deployment, thereby ensuring continued support for existing customers."
+            />
+        </div>
     </>
     );
 }
