@@ -1,12 +1,11 @@
 
 .navTitle {
-    padding-left: 2rem;
-    padding-top: 6.5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
     padding-bottom: 2rem;
     font-size: 200%;
     font-weight: bold;
     letter-spacing: 0.25rem;
-    margin-top: 5rem;
     display: inline-block;
 }
 
@@ -21,6 +20,6 @@
 @media (max-width: 780px) {
     .navTitle {
         font-size: 150%;
-        padding-top: 6rem;
+        padding-left: 2rem;
     }
 }

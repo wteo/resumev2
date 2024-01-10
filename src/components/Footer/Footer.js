@@ -16,7 +16,7 @@ function Footer() {
                     github.com/wteo/
                 </a>
             </p>
-            <p id={styles.copyright}>© Wendy Teo 2023 •  Designs by Me!</p>
+            <p id={styles.copyright}>© Wendy Teo 2024 •  Designs by Me!</p>
             <p id={styles.place}>Sydney, Australia</p>
         </footer>
     );

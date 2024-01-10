@@ -1,4 +1,4 @@
-import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
 import AboutMe from './components/AboutMe/AboutMe';
 import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
@@ -11,7 +11,7 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.appGrid}>
-      <Header/>
+      <Navigation/>
       <AboutMe/>
       <Experience/>
       <Projects/>

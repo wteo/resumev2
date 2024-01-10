@@ -9,7 +9,7 @@ import resumeFile from '../../files/resume.pdf';
 
 function AboutMe() {
     return (
-        <div className={styles.aboutMeOuterContainer} id='aboutMe'>
+        <div className={styles.aboutMeOuterContainer} id='about'>
             <NavTitleStyle navColor='main'>
                 About Me
             </NavTitleStyle>
