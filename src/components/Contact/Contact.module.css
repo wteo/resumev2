@@ -1,0 +1,98 @@
+.contactStyling {
+    background-color: var(--alternate-background-color);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    margin-bottom: -2rem;
+}
+
+.contactStyling p {
+    color: var(--alternate-p-text-color);
+    margin: auto 0;
+    font-size: 200%;
+    text-align: center;
+}
+
+#contactLine {
+    font-size: 350%;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#email {
+    margin-top: 2rem;
+}
+
+#email, #github {
+    transition: text-decoration 0.5s;
+}
+
+#email:hover, #github:hover, #resume:hover {
+    text-decoration: underline;
+}
+
+#phone {
+    font-size: 150%;
+    padding: 0.5rem;
+}
+
+#github a, #resume a {
+    color: var(--alternate-p-text-color);
+}
+
+#place {
+    font-size: 85%;
+}
+
+/* New styles for the form */
+.contactStyling form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contactStyling input[type="text"],
+.contactStyling input[type="email"],
+.contactStyling textarea {
+    width: 55%; /* Adjust width as needed */
+    padding: 0.5rem;
+    font-size: 100%;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contactStyling textarea {
+    height: 100px; /* Adjust height as needed */
+    resize: vertical;
+}
+
+.contactStyling form button {
+    background-color: var(--button-color); 
+    color: var(--main-p-text-color);
+    border: 2px solid var(--button-color);
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+    font-size: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contactStyling form button:hover {
+    background-color: var(--hover-button-color); 
+    color: var(--button-color);
+    border: 2px solid var(--button-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 780px) {
+    .contactStyling input[type="text"],
+    .contactStyling input[type="email"],
+    .contactStyling textarea {
+        width: 90%;
+    }
+}

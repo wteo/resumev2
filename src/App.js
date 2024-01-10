@@ -4,6 +4,7 @@ import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import Tools from './components/Tools/Tools';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 import styles from './App.module.css';
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Education/>
       <Tools/>
+      <Contact/>
       <Footer/>
     </div>
   );

@@ -13,6 +13,8 @@
   --hover-main-background-color: #425067;
   --alternate-background-color: white;
   --footer-background-color: #048BC2;
+  --button-color: #048BC2;
+  --hover-button-color: transparent;
 }
 
 body {
