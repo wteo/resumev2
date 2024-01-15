@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
 :root {
   --h1-text-color: white;
   --alternate-h1-text-color: #212834;

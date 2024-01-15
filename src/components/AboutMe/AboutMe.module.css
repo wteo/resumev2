@@ -3,6 +3,7 @@
     flex-direction: column;
     margin-top: -7.5rem;
     padding-bottom: 10rem;
+    max-width: 1400px;
 }
 
 .aboutMeOuterContainer div, .aboutMeOuterContainer p {
@@ -66,8 +67,8 @@
     }
 
     .profileImage {
-        width:  18rem;
-        height: 18em;
+        width:  17rem;
+        height: 17em;
         padding: 0.4rem;
         border-radius: 1rem;
         border: 1px solid var(--header-background-color);

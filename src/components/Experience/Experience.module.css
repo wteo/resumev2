@@ -2,6 +2,6 @@
     background-color: var(--alternate-background-color);
     color: var(--alternate-p-text-color);
     padding-bottom: 11rem;
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
 }
