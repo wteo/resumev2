@@ -9,7 +9,7 @@ import resumeFile from '../../files/resume.pdf';
 
 function AboutMe() {
     return (
-        <div className={styles.aboutMeOuterContainer} id='about'>
+        <section className={styles.aboutMeOuterContainer} id='about'>
             <NavTitleStyle navColor='main'>
                 About Me
             </NavTitleStyle>
@@ -33,7 +33,7 @@ function AboutMe() {
                     <img className={styles.profileImage} src={profilePicture} alt='myself'/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

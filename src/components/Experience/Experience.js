@@ -31,7 +31,7 @@ function Experience() {
     }];
 
     return (
-        <div className={styles.experienceStyling} id='experience'>
+        <section className={styles.experienceStyling} id='experience'>
             <NavTitleStyle navColor='alt'>
                 Experience
             </NavTitleStyle>
@@ -42,7 +42,7 @@ function Experience() {
                 <Job company={jobsArr[1].company} dates={jobsArr[1].dates} title={jobsArr[1].title}/>
                 <Job company={jobsArr[2].company} dates={jobsArr[2].dates} title={jobsArr[2].title}/>
                 <Job company={jobsArr[3].company} dates={jobsArr[3].dates} title={jobsArr[3].title}/>
-        </div>
+        </section>
     );
 }
 
