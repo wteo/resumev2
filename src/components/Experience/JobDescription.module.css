@@ -48,9 +48,13 @@
         margin-left: 2rem;
     }
 
+    .projectTitle {
+        padding-left: 2rem;
+    }
+
     .projectsGrid {
-        margin-left: 2rem;
         grid-template-columns: 1fr;
+        padding-left: 0.5rem;
     }
 }
 
