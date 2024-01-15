@@ -95,4 +95,13 @@
     .contactStyling textarea {
         width: 90%;
     }
+
+    .contactStyling p {
+        font-size: 150%;
+    }
+    
+    #phone {
+        font-size: 100%;
+    }
+    
 }
