@@ -9,7 +9,7 @@ header {
     bottom: auto;
     left: 0;
     z-index: 100;
-    background-color: var(--header-background-color);
+    background: linear-gradient(to top, var(--header-background-color-2), var(--header-background-color-1));
     padding: 15px 5vw 15px;
     margin: 0 auto;
     display: grid;
@@ -102,14 +102,14 @@ header {
 
     .navigation__mobile-menu-list {
         display: flex;
-        gap: 5vh;
+        gap: 3vh;
         flex-direction: column;
         position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: var(--header-background-color);
+        background: var(--header-background-color-2);
         list-style: none; 
         margin: 0;
         padding: 25vh 10vw; 
@@ -123,28 +123,14 @@ header {
         transform: translateX(0);
     }
 
-    .navigation__mobile-topbar {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
-        background-color: var(--header-background-color);
-    }
-    
-    .navigation__mobile-logo {
-        max-width: 50px;
-        max-height: auto;
-        width: 100%;
-        margin: 15px 50px;
-        float: right;
+    .navigation__menu-item {
+        font-size: 1.75rem;
+        margin-right: 0vw; 
     }
 
-    .navigation__menu-item {
-        font-size: xx-large;
+    .navigation__menu-item:hover > .navigation__highlight {
+        transform: scaleX(1);
     }
-    
 
     .navigation__logo-wrapper {
         display: none;
@@ -152,17 +138,6 @@ header {
 
     .navigation__toggle-btn {
         display: block;
-    }
-
-    .navigation__overlay {
-        position: fixed;
-        z-index: 50;
-        background-color: black;
-        opacity: 0.5;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
     }
 
 }

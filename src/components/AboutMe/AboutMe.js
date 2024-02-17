@@ -14,7 +14,7 @@ function AboutMe() {
                 About Me
             </NavTitleStyle>
             <div className={styles.aboutMeInnerContainer}>
-                <div className={styles.aboutMeSummary}>
+                <div className={styles.aboutMeSummary} data-aos='fade-right' data-aos-once='true'>
                     <p className={styles.aboutMeSubTitle}>Self-Taught Developer</p>
                     <p>I have been teaching myself how to code since May 2021.</p>
                     <p>After 10 years in Finance, I decided to pursue my interest in web development.</p>
@@ -26,7 +26,7 @@ function AboutMe() {
                         <button id={styles.resume}>Download resume</button>
                     </a>
                 </div>
-                <div className={styles.aboutMeImageContainer} data-aos='fade-in'>
+                <div className={styles.aboutMeImageContainer} data-aos='flip-left' data-aos-once='true'>
                     <img className={styles.profileImage} src={profilePicture} alt='myself'/>
                 </div>
             </div>

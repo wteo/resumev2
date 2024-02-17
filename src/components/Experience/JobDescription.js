@@ -10,7 +10,7 @@ import cafeDeVopsDoc from '../../files/cafeDeVops.pdf';
 function JobDescription() {
     return (
     <>
-        <ul className={styles.jobDescriptionStyle}>
+        <ul className={styles.jobDescriptionStyle} data-aos='fade-right' data-aos-once='true'>
             <li className={styles.task}>
                 Developed & maintained responsive web pages & components using HTML, CSS, & JavaScript. 
                 Participated in Agile development processes, including daily stand-ups & sprint planning meetings. 

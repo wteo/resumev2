@@ -81,8 +81,8 @@ function Tools() {
                 <NavTitleStyle navColor='main'>
                     Tools
                 </NavTitleStyle>
-                <p className={styles.toolDescription}>These are the tools / technologies I have used to create my projects.</p>
-                <button className={styles.changeButton} onClick={clickHandler}>{icon ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
+                <p className={styles.toolDescription} data-aos='fade-right' data-aos-once='true'>These are the tools / technologies I have used to create my projects.</p>
+                <button className={styles.changeButton} onClick={clickHandler} data-aos='fade-right' data-aos-once='true'>{icon ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
                 <section className={styles.toolsListGrid}>
                     <ToolsContainer toolType='Languages'>
                         <Tool imageLink={jsIcon} toolName='JavaScript'/>

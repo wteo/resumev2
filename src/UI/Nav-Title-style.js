@@ -8,7 +8,7 @@ function NavTitleStyle(props) {
     const altColor = <h1 className={styles.altNavTitleColor}>{props.children}</h1>;
 
     return (
-        <div className={styles.navTitle}>
+        <div className={styles.navTitle} data-aos='fade-right' data-aos-once='true'>
             {props.navColor === 'main' ? mainColor : altColor}        
         </div>
     );

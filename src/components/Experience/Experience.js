@@ -35,7 +35,7 @@ function Experience() {
             <NavTitleStyle navColor='alt'>
                 Experience
             </NavTitleStyle>
-                <div className={styles.jobAndDescription}>
+                <div className={styles.jobAndDescription} data-aos='fade-right' data-aos-once='true'>
                     <Job company={jobsArr[0].company} dates={jobsArr[0].dates} title={jobsArr[0].title}/>
                     <JobDescription />
                 </div>
