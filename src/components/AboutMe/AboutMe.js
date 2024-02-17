@@ -23,7 +23,7 @@ function AboutMe() {
                     <p>I was born in Malaysia. Hence, I can speak 4 different languages: English (my most used language), Malay, Mandarin and Hokkien.</p>
                     <p>For leisure, I enjoy cycling and reading books.</p>
                     <a href={resumeFile} target='_blank' rel='noreferrer'>
-                        <button id={styles.resume}>View my resume</button>
+                        <button id={styles.resume}>Download resume</button>
                     </a>
                 </div>
                 <div className={styles.aboutMeImageContainer} data-aos='fade-in'>

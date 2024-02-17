@@ -32,7 +32,7 @@
     border-left: 0.10rem solid var(--alternate-p-text-color);
 }
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
 
     .company {
         font-size: 115%;

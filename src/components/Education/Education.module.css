@@ -16,7 +16,7 @@
     grid-auto-flow: row;
 }
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
     .coursesContainer {
         grid-template-columns: 1fr;
     }

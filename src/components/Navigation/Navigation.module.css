@@ -50,7 +50,7 @@ header {
 }
 
 .navigation__menu-item:hover > .navigation__highlight {
-    border-bottom: 5px solid var(--main-p-text-color);
+    border-bottom: 5px solid var(--CTA-color);
     transform: scaleX(1);
 }
 
@@ -91,7 +91,7 @@ header {
 }
     
 /* Mobile layout */
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
     header {
         margin-bottom: 50px;
     }

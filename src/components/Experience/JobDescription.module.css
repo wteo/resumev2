@@ -30,7 +30,7 @@
     margin-bottom: 5rem;
 }
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
 
     .jobDescriptionStyle {
         margin-top: -2rem;
@@ -60,7 +60,7 @@
     }
 }
 
-@media (max-width: 1150px) and (min-width: 779px) {
+@media only screen and (max-width: 1150px) and (min-width: 779px) {
     .projectsGrid {
         max-width: 50rem;
         grid-template-columns: 1fr 1fr;

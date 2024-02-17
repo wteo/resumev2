@@ -15,7 +15,7 @@
     color: var(--alternate-h1-text-color);
 }
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
 
     .navTitle {
         padding-top: 5rem;

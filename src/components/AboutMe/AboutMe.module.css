@@ -15,7 +15,11 @@
     padding-left: 5rem;
 }
 
-.aboutMeOuterContainer button {
+.aboutMeSummary a {
+    font-size: small;
+}
+
+.aboutMeSummary a button {
     margin-left: 5rem;
     padding: 10px 25px;
     color: white;
@@ -25,7 +29,7 @@
     transition: all 0.3s;
 }
 
-.aboutMeOuterContainer button:hover {
+.aboutMeSummary a button:hover {
     background-color: var(--CTA-hovered-color);
     border: 3px solid var(--CTA-hovered-color);
     cursor: pointer;
@@ -50,7 +54,7 @@
 
 .profileImage {
     float: center;
-    width:  35rem;
+    width: 35rem;
     height: 35rem;
     object-fit: cover;
     padding: 1rem;
@@ -63,13 +67,13 @@
     font-size: 150%;
 }
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
 
     .aboutMeOuterContainer p {
         padding-left: 2rem;
     }
 
-    .aboutMeOuterContainer button {
+    .aboutMeSummary a button {
         margin-left: 2rem;
     }
 
@@ -90,7 +94,7 @@
     
 }
 
-@media (max-width: 1150px) and (min-width: 779px) {
+@media only screen and (max-width: 1150px) and (min-width: 779px) {
 
     .aboutMeInnerContainer {
         column-gap: 2.5rem;

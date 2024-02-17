@@ -76,24 +76,23 @@
 }
 
 .contact form button {
-    background-color: var(--button-color); 
+    background-color: var(--CTA-color); 
     color: var(--main-p-text-color);
-    border: 2px solid var(--button-color);
+    border: 3px solid var(--CTA-color);
     border-radius: 4px;
-    padding: 0.5rem 1.5rem;
-    font-size: 100%;
+    padding: 10px 25px;
+    font-size: large;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .contact form button:hover {
-    background-color: var(--hover-button-color); 
-    color: var(--button-color);
-    border: 2px solid var(--button-color);
+    background-color: var(--CTA-hovered-color); 
+    border: 3px solid var(--CTA-hovered-color);
 }
 
 /* Responsive adjustments */
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
     .contact input[type="text"],
     .contact input[type="email"],
     .contact textarea {
