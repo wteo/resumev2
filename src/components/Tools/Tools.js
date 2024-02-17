@@ -82,7 +82,12 @@ function Tools() {
                     Tools
                 </NavTitleStyle>
                 <p className={styles.toolDescription} data-aos='fade-right' data-aos-once='true'>These are the tools / technologies I have used to create my projects.</p>
-                <div className={styles.toggle__container} onClick={toggleHandler}>
+                <div 
+                    className={styles.toggle__container} 
+                    onClick={toggleHandler}
+                    data-aos='fade-right' 
+                    data-aos-once='true'
+                >
                     <p className={icon ? '' : styles.toggle__highlight}>Text</p>
                     <div className={styles.toggle__switch}>
                         <div className={`${styles.slider} ${icon ? styles.icons : styles.text}`}></div>
