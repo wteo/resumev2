@@ -14,22 +14,49 @@
     row-gap: 3rem;
 }
 
-.changeButton {
+.toggle__container {
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
     margin-left: 5rem;
-    font-size: large;
     margin-bottom: 2rem;
-    padding: 10px 25px;
-    color: white;
-    background-color: var(--CTA-color);
-    border: 3px solid var(--CTA-color);
-    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle__switch {
+    width: 50px; 
+    height: 24px; 
+    position: relative;
+    display: inline-block;
+    border-radius: 34px;
+    background-color: var(--CTA-bg-color);
+    transition: all 0.3s;
+}
+  
+.toggle__switch .slider {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%;
+    background-color: var(--CTA-color);  
     transition: all 0.3s;
 }
 
-.changeButton:hover {
-    background-color: var(--CTA-hovered-color);
-    border: 3px solid var(--CTA-hovered-color);
-    cursor: pointer;
+.icons {
+    transform: translateX(26px); 
+}
+
+.toggle__highlight {
+    color: var(--CTA-color);
+    transition: all 0.3s;
+}
+  
+.text {
+    transform: translateX(0); 
 }
 
 @media only screen and (max-width: 780px) {
@@ -47,7 +74,7 @@
         font-size: 130%;
     }
 
-    .changeButton {
+    .toggle__container {
         margin-left: 2rem;
     }
 

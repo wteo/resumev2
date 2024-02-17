@@ -70,7 +70,7 @@ function Tools() {
     
     const [icon, setIcon] = useState(true);
 
-    const clickHandler = () => {
+    const toggleHandler = () => {
         setIcon(!icon);
         console.log(icon);
     };
@@ -82,7 +82,13 @@ function Tools() {
                     Tools
                 </NavTitleStyle>
                 <p className={styles.toolDescription} data-aos='fade-right' data-aos-once='true'>These are the tools / technologies I have used to create my projects.</p>
-                <button className={styles.changeButton} onClick={clickHandler} data-aos='fade-right' data-aos-once='true'>{icon ? 'Icon  →  Text' : 'Text  →  Icon'}</button>
+                <div className={styles.toggle__container} onClick={toggleHandler}>
+                    <p className={icon ? '' : styles.toggle__highlight}>Text</p>
+                    <div className={styles.toggle__switch}>
+                        <div className={`${styles.slider} ${icon ? styles.icons : styles.text}`}></div>
+                    </div>
+                    <p className={icon ? styles.toggle__highlight : ''} >Icon</p>
+                </div>
                 <section className={styles.toolsListGrid}>
                     <ToolsContainer toolType='Languages'>
                         <Tool imageLink={jsIcon} toolName='JavaScript'/>
