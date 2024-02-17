@@ -6,9 +6,9 @@ const Contact = () => {
     const formSpreeUrl = 'https://formspree.io/f/xpzvzeko'; 
 
     return (
-        <div className={styles.contactStyling}>
+        <div className={styles.contact}>
             <form action={formSpreeUrl} method="POST">
-                <p id={styles.contactLine}>Say hello!</p>
+                <p className={styles.contact__title}>Say hello!</p>
                 <input
                     type="text"
                     name="name"

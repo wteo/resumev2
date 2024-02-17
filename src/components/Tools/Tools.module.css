@@ -34,6 +34,7 @@
 @media (max-width: 780px) {
     .toolsListGrid {
         grid-template-columns: 1fr;
+        margin-left: -3rem;
     }
 
     .toolDescription {

@@ -1,5 +1,6 @@
 .projectsGrid {
     max-width: 75rem;
+    place-items: center;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -16,6 +17,7 @@
 
 @media (max-width: 1150px) and (min-width: 779px) {
     .projectsGrid {
+        max-width: 50rem;
         grid-template-columns: 1fr 1fr;
     }
 }

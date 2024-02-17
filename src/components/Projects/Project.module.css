@@ -1,4 +1,4 @@
-.container {
+.project {
     display: flex;
 }
 
@@ -12,7 +12,7 @@
     border-radius: 1rem;
 }
 
-.projectContainer {
+.project__container {
     position: relative;
     display: flex;
     border: 1px solid var(--header-background-color);
@@ -20,34 +20,34 @@
     border-radius: 1rem;
 }
 
-.projectContainer:hover {
+.project__container:hover {
     background-color: var(--hover-main-background-color);
     box-shadow: 5px 5px 20px #7c7c7c;
 }
 
-.projectName, .projectDate, .projectDescription {
+.project__name, .project__date, .project__description {
     position: absolute;
     color: var(--main-p-text-color);
 }
 
-.projectName, .projectDate {
+.project__name, .project__date {
     left: 0.75rem;
 }
 
-.projectName {
+.project__name {
     top: 0;
     font-size: 120%;
     font-weight: bold;
     padding: 0.25rem;    
 }
 
-.projectDate {
+.project__date {
     top: 2.5rem;
     font-size: 115%;
     padding: 0.15rem;
 }
 
-.projectDescription {
+.project__description {
     bottom: 0;
     right: 0;
     margin-left: 7.5rem;

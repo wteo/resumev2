@@ -10,8 +10,8 @@
 }
 
 .task{
-    margin: auto 0;
     padding-bottom: 1rem;
+    padding-right: 6.5rem;
     color: var(--alternate-p-text-color);
 }
 
@@ -21,10 +21,11 @@
 
 .projectsGrid {
     max-width: 75rem;
-    margin: 0 auto;
+    padding-left: 5rem;
+    place-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 2.5rem;
+    row-gap: 1rem;
     column-gap: 1rem;
     margin-bottom: 5rem;
 }
@@ -46,6 +47,7 @@
     .task {
         font-size: 75%;
         margin-left: 2rem;
+        padding-right: 2rem;
     }
 
     .projectTitle {
@@ -60,6 +62,7 @@
 
 @media (max-width: 1150px) and (min-width: 779px) {
     .projectsGrid {
+        max-width: 50rem;
         grid-template-columns: 1fr 1fr;
     }
 }

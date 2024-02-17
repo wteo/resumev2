@@ -12,9 +12,10 @@
 
 .toolText {
     display: inline-block;
-    padding: 0.25rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
     font-size: 150%;
     background-color: rgba(108, 108, 108, 0.3);
     border-radius: 0.3rem;
