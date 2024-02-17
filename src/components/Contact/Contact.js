@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <div className={styles.contact}>
             <form action={formSpreeUrl} method="POST">
-                <p className={styles.contact__title}>Say hello!</p>
+                <h1 className={styles.contact__title}>Say Hello!</h1>
                 <input
                     type="text"
                     name="name"

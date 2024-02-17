@@ -11,11 +11,13 @@
   --footer-background-color: #048BC2;
   --button-color: #048BC2;
   --hover-button-color: transparent;
+  --CTA-color: #FF6B61;
+  --CTA-hovered-color: #fb9631;
 }
 
 body {
   background-color: #212834;
-  font-family: 'Times New Roman', 'Verdana', 'Arial';
+  font-family: 'Merriweather', serif;
   z-index: 500;
 }
 

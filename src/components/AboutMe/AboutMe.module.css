@@ -1,7 +1,7 @@
 .aboutMeOuterContainer {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    margin-top: -7.5rem;
+    margin-top: -5rem;
     padding-bottom: 10rem;
 }
 
@@ -11,14 +11,31 @@
 }
 
 .aboutMeOuterContainer p {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-left: 5rem;
+}
+
+.aboutMeOuterContainer button {
+    margin-left: 5rem;
+    padding: 10px 25px;
+    color: white;
+    background-color: var(--CTA-color);
+    border: 3px solid var(--CTA-color);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.aboutMeOuterContainer button:hover {
+    background-color: var(--CTA-hovered-color);
+    border: 3px solid var(--CTA-hovered-color);
+    cursor: pointer;
 }
 
 .aboutMeInnerContainer {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr 1fr;
-    column-gap: 4rem;
+    gap: 2rem;
 }
 
 .aboutMeSummary{
@@ -38,17 +55,12 @@
     object-fit: cover;
     padding: 1rem;
     border-radius: 2rem;
-    border: 2px solid var(--header-background-color);
+    background-color: aliceblue;
 }
 
 #resume {
     margin-top: 2rem;
     font-size: 150%;
-}
-
-#linkArrow {
-    padding-left: 0.5rem;
-    width: 150%;
 }
 
 @media (max-width: 780px) {
@@ -57,20 +69,19 @@
         padding-left: 2rem;
     }
 
+    .aboutMeOuterContainer button {
+        margin-left: 2rem;
+    }
+
     .aboutMeInnerContainer {
         grid-template-columns: 1fr;
     }
 
-    .aboutMeImageContainer {
-        padding-left: 5rem;
-    }
-
     .profileImage {
-        width:  17rem;
-        height: 17em;
+        width:  20rem;
+        height: 20rem;
         padding: 0.4rem;
         border-radius: 1rem;
-        border: 1px solid var(--header-background-color);
     }
 
     .aboutMeSummary{
@@ -86,11 +97,10 @@
     }
 
     .profileImage {
-        width:  27rem;
-        height: 27rem;
+        width:  25rem;
+        height: 25rem;
         padding: 0.75rem;
         border-radius: 1.5rem;
-        border: 2px solid var(--header-background-color);
     }
 
     .aboutMeSummary{

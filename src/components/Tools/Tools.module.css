@@ -16,19 +16,20 @@
 
 .changeButton {
     margin-left: 5rem;
+    font-size: large;
     margin-bottom: 2rem;
-    width: 7.5rem;
-    height: 1.5rem;
-    background-color: rgba(0,0,0,0);
-    color: var(--main-p-text-color);
-    border-color: var(--main-p-text-color);
-    border-radius: 3rem;
-    transition: box-shadow 0.5s;
+    padding: 10px 25px;
+    color: white;
+    background-color: var(--CTA-color);
+    border: 3px solid var(--CTA-color);
+    border-radius: 5px;
+    transition: all 0.3s;
 }
 
 .changeButton:hover {
+    background-color: var(--CTA-hovered-color);
+    border: 3px solid var(--CTA-hovered-color);
     cursor: pointer;
-    box-shadow: 2.5px 2.5px 10px #888888;
 }
 
 @media (max-width: 780px) {
