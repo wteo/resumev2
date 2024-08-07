@@ -8,10 +8,6 @@ import NavTitleStyle from "../../UI/Nav-Title-style";
 
 import styles from './Experience.module.css'; 
 
-import IAL from '../../images/ial.png';
-import cafeDeVopsImg from '../../images/cafeDeVops.png';
-import cafeDeVopsDoc from '../../files/cafeDeVops.pdf';
-
 function Experience() {
 
     const jobsArr = [{
@@ -21,8 +17,6 @@ function Experience() {
     }, {
         company: 'The Lazy Society',
         dates: 'Sep 2023 - Present',
-        stack: '',
-        website: '',
         title: 'Full Stack Web Developer',
         descriptions: [
             'Spearheaded the development of The Lazy Society\'s web platform, focusing on cryptocurrency education & user engagement, whilst implementing responsive design & interactive UI components via React.',
@@ -61,24 +55,6 @@ function Experience() {
                 <div className={styles.jobAndDescription}>
                     <Job company={jobsArr[2].company} dates={jobsArr[2].dates} title={jobsArr[2].title} />
                     <JobDescription descriptions={jobsArr[2].descriptions} />
-                    <WorkProjects title="Websites / Projects I worked on:">
-                        <Project 
-                            name="Cafe De Vops" 
-                            imageLink={cafeDeVopsImg}
-                            projectLink={cafeDeVopsDoc}
-                            date="Jun 23 - Jul 23 | Figma Yarn VueJS AWS"
-                            description="Developed an intuitive Jira ticket creation form designed to streamline user interactions during the submission of routine requests. 
-                            Please note that as this is an internal project, I am only able to share the conceptual design that I personally designed."
-                        />
-                        <Project 
-                            name="Insurance Australia Limited (IAL)" 
-                            imageLink={IAL}
-                            projectLink="https://ial.com.au"
-                            date="Feb 23 | Hugo"
-                            description="Acquired proficiency in Hugo to independently modify the discontinued IAL brand's static website, 
-                            update content, & manage deployment, thereby ensuring continued support for existing customers."
-                        />
-                    </WorkProjects>
                 </div>
                 <Job company={jobsArr[3].company} dates={jobsArr[3].dates} />
                 <JobDescription descriptions={jobsArr[3].descriptions} />
